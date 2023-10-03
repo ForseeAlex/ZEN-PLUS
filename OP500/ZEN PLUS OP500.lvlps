@@ -8,3 +8,7 @@ Cache_Path[Path] Line0002 = "81-5495-4A8E-A900-EC6278F9DD65}.txt"
 [AB_Cache_{0644DFAB-FDDD-4F89-8652-CD73B6E407A3}]
 Cache_Path[Path] Line0001 = "/C/Users/kabre/AppData/Local/Temp/AB_Cache_{0644DF"
 Cache_Path[Path] Line0002 = "AB-FDDD-4F89-8652-CD73B6E407A3}.txt"
+
+[ProjectWindow_Data]
+ProjectExplorer.ClassicPosition[String] = "300,683,837,1224"
+

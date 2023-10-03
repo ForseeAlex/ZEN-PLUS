@@ -100,23 +100,26 @@
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Time_string.vi" Type="VI" URL="/&lt;vilib&gt;/Sylvain.lib/user.lib/Alex Log/Time_string.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="BDD READWRIGHT.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_BDD/BDD READWRIGHT.vi"/>
+				<Item Name="BDD READWRIGHT.vi" Type="VI" URL="/&lt;userlib&gt;/BDD/BDD READWRIGHT.vi"/>
 				<Item Name="PEAK_lib_ALEX.lvlib" Type="Library" URL="/&lt;userlib&gt;/Alex_Peak_lib/PEAK_lib_ALEX.lvlib"/>
-				<Item Name="Channel.ctl" Type="VI" URL="/&lt;userlib&gt;/PCAN Basic/Controls/Channel.ctl"/>
 				<Item Name="Parameter.ctl" Type="VI" URL="/&lt;userlib&gt;/PCAN Basic/Controls/Parameter.ctl"/>
-				<Item Name="BaudrateEenum.ctl" Type="VI" URL="/&lt;userlib&gt;/PCAN Basic/Controls/BaudrateEenum.ctl"/>
 				<Item Name="CAN Uninitialize.vi" Type="VI" URL="/&lt;userlib&gt;/PCAN Basic/VIs/CAN Uninitialize.vi"/>
-				<Item Name="PCAN Get CHANNEL CONDITION.vi" Type="VI" URL="/&lt;userlib&gt;/PCAN Basic/VIs/Get Value/PCAN Get CHANNEL CONDITION.vi"/>
-				<Item Name="CAN Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/PCAN Basic/VIs/CAN Initialize.vi"/>
 				<Item Name="PEAK_Init_plus.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/PEAK_Init_plus.vi"/>
 				<Item Name="FlushCanFrame.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/FlushCanFrame.vi"/>
 				<Item Name="Peak_ta_Bouche.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/Peak_ta_Bouche.vi"/>
 				<Item Name="BDD READ nDATA.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_BDD/BDD READ nDATA.vi"/>
+				<Item Name="PCANBasic.lvlib" Type="Library" URL="/&lt;userlib&gt;/PCAN Basic/PCANBasic.lvlib"/>
+				<Item Name="BDD READWRIGHT.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_BDD/BDD READWRIGHT.vi"/>
+				<Item Name="Time_string.vi" Type="VI" URL="/&lt;userlib&gt;/Alex Log/Time_string.vi"/>
+			</Item>
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="IT6000C.lvlib" Type="Library" URL="/&lt;instrlib&gt;/IT6000C/IT6000C.lvlib"/>
+				<Item Name="Read Output.vi" Type="VI" URL="/&lt;instrlib&gt;/IT6000C/Public/Data/Read Output.vi"/>
 			</Item>
 			<Item Name="SELECT COUNT SN.vi" Type="VI" URL="../DB/SELECT COUNT SN.vi"/>
-			<Item Name="PCANBasic.lvlib" Type="Library" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/PCAN Basic/PCANBasic.lvlib"/>
 			<Item Name="PCANBasic.dll" Type="Document" URL="PCANBasic.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -124,8 +127,6 @@
 			<Item Name="Check cmod P15 VAL INGELIANCE.vi" Type="VI" URL="../../../00 LIB GENERIC/COM CMOD/Check cmod P15 VAL INGELIANCE.vi"/>
 			<Item Name="PushGoldenSingleData.vi" Type="VI" URL="../DB/PushGoldenSingleData.vi"/>
 			<Item Name="PushGolden.vi" Type="VI" URL="../DB/PushGolden.vi"/>
-			<Item Name="Read Output.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/instr.lib/IT6000C/Public/Data/Read Output.vi"/>
-			<Item Name="IT6000C.lvlib" Type="Library" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/instr.lib/IT6000C/IT6000C.lvlib"/>
 			<Item Name="Loop_Ternaire_PASS_FAIL.vi" Type="VI" URL="../../../00 LIB GENERIC/COM CMOD/Loop_Ternaire_PASS_FAIL.vi"/>
 			<Item Name="OF state.vi" Type="VI" URL="../DB/OF state.vi"/>
 			<Item Name="OF state PUSH.vi" Type="VI" URL="../DB/OF state PUSH.vi"/>
@@ -135,8 +136,9 @@
 			<Item Name="GB_DCIR.vi" Type="VI" URL="../subVI/GB_DCIR/GB_DCIR.vi"/>
 			<Item Name="FinalCheck.vi" Type="VI" URL="../DB/FinalCheck.vi"/>
 			<Item Name="Check cmod P15 VAL.vi" Type="VI" URL="../../../00 LIB GENERIC/COM CMOD/Check cmod P15 VAL.vi"/>
-			<Item Name="Time_string.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/vi.lib/Sylvain.lib/user.lib/Alex Log/Time_string.vi"/>
-			<Item Name="Param_Stack.vi" Type="VI" URL="../../../02 SLIM ZEN/Param_Stack.vi"/>
+			<Item Name="Global var.vi" Type="VI" URL="../subVI/VarGLO/Global var.vi"/>
+			<Item Name="PCANBasic.dll" Type="Document" URL="../../../../../../Admin_Process/Desktop/Nouveau dossier (2)/C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/PCAN Basic/PCANBasic.dll"/>
+			<Item Name="VG_progressBar.vi" Type="VI" URL="../../../02 SLIM ZEN WS 500/SubVi/VG_progressBar.vi"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build"/>
 	</Item>
