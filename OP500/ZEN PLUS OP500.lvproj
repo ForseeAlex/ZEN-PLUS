@@ -32,6 +32,7 @@
 		<Item Name="QR_top_left.vi" Type="VI" URL="../SubVI/QR_top_left.vi"/>
 		<Item Name="Read_Param.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/Read_Param.vi"/>
 		<Item Name="Réponse Opérateur.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/Réponse Opérateur.vi"/>
+		<Item Name="SCAN CMU.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/SCAN CMU/SCAN CMU.vi"/>
 		<Item Name="VG_branche.vi" Type="VI" URL="../VG/VG_branche.vi"/>
 		<Item Name="VG_YESNON.vi" Type="VI" URL="../Lib/user.lib/Question/VG_YESNON.vi"/>
 		<Item Name="ZENP_CAN.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/ZENP_CAN.vi"/>
@@ -132,7 +133,6 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="MySQLConnector.ctl" Type="VI" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/MySQLConnector.lvclass/MySQLConnector.ctl"/>
-				<Item Name="MySQLConnector.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/MySQLConnector.lvclass"/>
 				<Item Name="MySQLNetworkStream.ctl" Type="VI" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/NetworkStream/MySQLNetworkStream.lvclass/MySQLNetworkStream.ctl"/>
 				<Item Name="MySQLVIEW.lvlib" Type="Library" URL="/&lt;vilib&gt;/QMT/GDataBase for MySQL(tm)/MySQLVIEW.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -141,7 +141,6 @@
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
-				<Item Name="Open.vi" Type="VI" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/Public/Open.vi"/>
 				<Item Name="Query.vi" Type="VI" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/Public/Query.vi"/>
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="ReadResultPacket.vi" Type="VI" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/NetworkStream/Public/ReadResultPacket.vi"/>
@@ -159,7 +158,6 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
-				<Item Name="StringToUTF8.vi" Type="VI" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/Public/Utility/StringToUTF8.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -209,7 +207,6 @@
 			<Item Name="QA.vi" Type="VI" URL="../SubVI/QA.vi"/>
 			<Item Name="REVION_VI.vi" Type="VI" URL="../SubVI/REVION_VI.vi"/>
 			<Item Name="Réponse Opérateur Pédale.vi" Type="VI" URL="../../OP400/Lib/user.lib/Question/Réponse Opérateur Pédale.vi"/>
-			<Item Name="SCAN CMU.vi" Type="VI" URL="../../SCAN CMU/SCAN CMU.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -240,7 +237,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0644DFAB-FDDD-4F89-8652-CD73B6E407A3}</Property>
-				<Property Name="Bld_version.build" Type="Int">104</Property>
+				<Property Name="Bld_version.build" Type="Int">106</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ZENPlusOP500V1.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ZEN+ OP500/ZENPlusOP500V1.exe</Property>
