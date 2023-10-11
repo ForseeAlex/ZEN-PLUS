@@ -232,6 +232,7 @@
 			<Item Name="VG_MX5060.vi" Type="VI" URL="../VG/VG_MX5060.vi"/>
 			<Item Name="VG_progressBar.vi" Type="VI" URL="../VG/VG_progressBar.vi"/>
 			<Item Name="VG_ST5520.vi" Type="VI" URL="../VG/VG_ST5520.vi"/>
+			<Item Name="VG_Valide.vi" Type="VI" URL="../../OP600/VG/VG_Valide.vi"/>
 			<Item Name="ZenPlusOP300_refaire.vi" Type="VI" URL="../SubVI/ZenPlusOP300_refaire.vi"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build">
@@ -252,7 +253,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0644DFAB-FDDD-4F89-8652-CD73B6E407A3}</Property>
-				<Property Name="Bld_version.build" Type="Int">108</Property>
+				<Property Name="Bld_version.build" Type="Int">109</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ZENPlusOP500V1.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ZEN+ OP500/ZENPlusOP500V1.exe</Property>

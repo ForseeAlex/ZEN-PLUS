@@ -50,7 +50,6 @@
 			<Item Name="trame_ana.vi" Type="VI" URL="../subVI/trame_ana.vi"/>
 			<Item Name="trame_ana_save.vi" Type="VI" URL="../subVI/trame_ana_save.vi"/>
 			<Item Name="TypeSn.vi" Type="VI" URL="../subVI/TypeSn.vi"/>
-			<Item Name="VG_progressBar.vi" Type="VI" URL="../subVI/VG_progressBar.vi"/>
 			<Item Name="VISA W.vi" Type="VI" URL="../subVI/VISA W.vi"/>
 			<Item Name="WriteLastOF.vi" Type="VI" URL="../subVI/WriteLastOF.vi"/>
 			<Item Name="ChekOF.vi" Type="VI" URL="../subVI/ChekOF.vi"/>
@@ -72,6 +71,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="VG_progressBar.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/VG_progressBar.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
@@ -80,7 +80,6 @@
 				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="xobjhandle.ctl" Type="VI" URL="/&lt;vilib&gt;/nican/nican.llb/xobjhandle.ctl"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
@@ -103,17 +102,13 @@
 				<Item Name="Time_string.vi" Type="VI" URL="/&lt;vilib&gt;/Sylvain.lib/user.lib/Alex Log/Time_string.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="BDD READWRIGHT.vi" Type="VI" URL="/&lt;userlib&gt;/BDD/BDD READWRIGHT.vi"/>
 				<Item Name="PEAK_lib_ALEX.lvlib" Type="Library" URL="/&lt;userlib&gt;/Alex_Peak_lib/PEAK_lib_ALEX.lvlib"/>
-				<Item Name="Parameter.ctl" Type="VI" URL="/&lt;userlib&gt;/PCAN Basic/Controls/Parameter.ctl"/>
-				<Item Name="CAN Uninitialize.vi" Type="VI" URL="/&lt;userlib&gt;/PCAN Basic/VIs/CAN Uninitialize.vi"/>
 				<Item Name="PEAK_Init_plus.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/PEAK_Init_plus.vi"/>
 				<Item Name="FlushCanFrame.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/FlushCanFrame.vi"/>
 				<Item Name="Peak_ta_Bouche.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/Peak_ta_Bouche.vi"/>
 				<Item Name="BDD READ nDATA.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_BDD/BDD READ nDATA.vi"/>
 				<Item Name="PCANBasic.lvlib" Type="Library" URL="/&lt;userlib&gt;/PCAN Basic/PCANBasic.lvlib"/>
 				<Item Name="BDD READWRIGHT.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_BDD/BDD READWRIGHT.vi"/>
-				<Item Name="Time_string.vi" Type="VI" URL="/&lt;userlib&gt;/Alex Log/Time_string.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="IT6000C.lvlib" Type="Library" URL="/&lt;instrlib&gt;/IT6000C/IT6000C.lvlib"/>
@@ -136,9 +131,6 @@
 			<Item Name="GB_DCIR.vi" Type="VI" URL="../subVI/GB_DCIR/GB_DCIR.vi"/>
 			<Item Name="FinalCheck.vi" Type="VI" URL="../DB/FinalCheck.vi"/>
 			<Item Name="Check cmod P15 VAL.vi" Type="VI" URL="../../../00 LIB GENERIC/COM CMOD/Check cmod P15 VAL.vi"/>
-			<Item Name="Global var.vi" Type="VI" URL="../subVI/VarGLO/Global var.vi"/>
-			<Item Name="PCANBasic.dll" Type="Document" URL="../../../../../../Admin_Process/Desktop/Nouveau dossier (2)/C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/PCAN Basic/PCANBasic.dll"/>
-			<Item Name="VG_progressBar.vi" Type="VI" URL="../../../02 SLIM ZEN WS 500/SubVi/VG_progressBar.vi"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build"/>
 	</Item>
