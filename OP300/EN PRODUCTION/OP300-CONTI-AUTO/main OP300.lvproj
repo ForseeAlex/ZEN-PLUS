@@ -55,6 +55,7 @@
 		<Item Name="SCAN_VISA.vi" Type="VI" URL="../SubVI/SCAN_VISA.vi"/>
 		<Item Name="SN_READ_FROM_TEXT.vi" Type="VI" URL="../../../../Users/TeamBT/Desktop/Charbel/SN_READ_FROM_TEXT.vi"/>
 		<Item Name="TestSCAN.vi" Type="VI" URL="/&lt;userlib&gt;/DIVERS/TestSCAN.vi"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../../../../../../../Downloads/Untitled 1.vi"/>
 		<Item Name="VG_ARDUINO.vi" Type="VI" URL="../VG/VG_ARDUINO.vi"/>
 		<Item Name="VG_BT3562.vi" Type="VI" URL="../VG/VG_BT3562.vi"/>
 		<Item Name="VG_HYDRAU.vi" Type="VI" URL="../SubVI/VG_HYDRAU.vi"/>
@@ -66,15 +67,15 @@
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="ACIR_DCIR_BT3562.vi" Type="VI" URL="/&lt;userlib&gt;/StepTest/ACIR_DCIR_BT3562.vi"/>
-				<Item Name="CAN MSG Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/PCAN Basic/Controls/CAN MSG Cluster.ctl"/>
-				<Item Name="CAN Uninitialize.vi" Type="VI" URL="/&lt;userlib&gt;/PCAN Basic/VIs/CAN Uninitialize.vi"/>
 				<Item Name="FGV.ctl" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/FGV.ctl"/>
 				<Item Name="FGV_Image.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/FGV_Image.vi"/>
+				<Item Name="Format.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/Format.vi"/>
 				<Item Name="OUINON.vi" Type="VI" URL="/&lt;userlib&gt;/Question/OUINON.vi"/>
+				<Item Name="PASSFAIL.vi" Type="VI" URL="/&lt;userlib&gt;/Alex Log/PASSFAIL.vi"/>
 				<Item Name="PEAK_Init_plus.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/PEAK_Init_plus.vi"/>
 				<Item Name="PEAK_lib_ALEX.lvlib" Type="Library" URL="/&lt;userlib&gt;/Alex_Peak_lib/PEAK_lib_ALEX.lvlib"/>
 				<Item Name="PicoInitVisa.vi" Type="VI" URL="/&lt;userlib&gt;/DIVERS/PicoInitVisa.vi"/>
-				<Item Name="Réponse Opérateur.vi" Type="VI" URL="/&lt;userlib&gt;/Question/Réponse Opérateur.vi"/>
+				<Item Name="Réponse Opérateur.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/Réponse Opérateur.vi"/>
 				<Item Name="waitXms.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/waitXms.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
@@ -82,7 +83,6 @@
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Channel.ctl" Type="VI" URL="/&lt;vilib&gt;/Sylvain.lib/user.lib/PCAN Basic/Controls/Channel.ctl"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -95,8 +95,6 @@
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;vilib&gt;/Sylvain.lib/user.lib/PCAN Basic/Get Err Code or Status/Error Converter (ErrCode or Status).vi"/>
-				<Item Name="Error language selector.ctl" Type="VI" URL="/&lt;vilib&gt;/Sylvain.lib/user.lib/PCAN Basic/Controls/Error language selector.ctl"/>
 				<Item Name="ErrorDescriptions.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/ErrorDescriptions.vi"/>
 				<Item Name="errorList.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/errorList.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -128,7 +126,6 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Parameter.ctl" Type="VI" URL="/&lt;vilib&gt;/Sylvain.lib/user.lib/PCAN Basic/Controls/Parameter.ctl"/>
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -153,7 +150,6 @@
 			<Item Name="DataCell_NbPASSFAIL_Bool.vi" Type="VI" URL="../Lib/02 SLIM ZEN/C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/Alex Log/DataCell_NbPASSFAIL_Bool.vi"/>
 			<Item Name="delay.vi" Type="VI" URL="../PVgenerator/delay.vi"/>
 			<Item Name="Dialogue_Etancheite.vi" Type="VI" URL="../SubVI/Dialogue_Etancheite.vi"/>
-			<Item Name="Format.vi" Type="VI" URL="../SubVI/Format.vi"/>
 			<Item Name="Heure.vi" Type="VI" URL="../Lib/00 LIB GENERIC/DIVERS/Heure.vi"/>
 			<Item Name="HTML_Table_Data.vi" Type="VI" URL="../PVgenerator/HTML_Table_Data.vi"/>
 			<Item Name="HTML_Table_Head.vi" Type="VI" URL="../PVgenerator/HTML_Table_Head.vi"/>
@@ -171,11 +167,9 @@
 			<Item Name="OP400ZP_Test_DataDyn.vi" Type="VI" URL="../../../../OP400/SubVI/OP400ZP_Test_DataDyn.vi"/>
 			<Item Name="OPERATEUR.vi" Type="VI" URL="../Lib/user.lib/Question/OPERATEUR.vi"/>
 			<Item Name="P_OUINON.vi" Type="VI" URL="../Lib/user.lib/Question/P_OUINON.vi"/>
-			<Item Name="PASSFAIL.vi" Type="VI" URL="../../../../OP400/Lib/user.lib/Alex Log/PASSFAIL.vi"/>
 			<Item Name="PCANBasic.dll" Type="Document" URL="PCANBasic.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PCANBasic.dll" Type="Document" URL="../../../../../../../../Admin_Process/Desktop/Nouveau dossier (2)/C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/PCAN Basic/PCANBasic.dll"/>
 			<Item Name="POP_GOOGLE.vi" Type="VI" URL="../Lib/user.lib/Alex Log/POP_GOOGLE.vi"/>
 			<Item Name="QR_top_left.vi" Type="VI" URL="../Lib/user.lib/Question/QR_top_left.vi"/>
 			<Item Name="R_VG.vi" Type="VI" URL="../SubVI/R_VG.vi"/>
