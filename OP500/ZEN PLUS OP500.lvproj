@@ -215,6 +215,7 @@
 			<Item Name="PN.vi" Type="VI" URL="../VG/PN.vi"/>
 			<Item Name="PvgeneratorOP500.vi" Type="VI" URL="../PvgeneratorOP500.vi"/>
 			<Item Name="QA.vi" Type="VI" URL="../SubVI/QA.vi"/>
+			<Item Name="QA_500.vi" Type="VI" URL="../SubVI/QA_500.vi"/>
 			<Item Name="ReadATEQData.vi" Type="VI" URL="../../OP300.2/SubVI/ReadATEQData.vi"/>
 			<Item Name="ReadData.vi" Type="VI" URL="../../OP300/EN PRODUCTION/OP300-CONTI-AUTO/SubVI/ReadData.vi"/>
 			<Item Name="ReadParam.vi" Type="VI" URL="../../OP300/EN PRODUCTION/OP300-CONTI-AUTO/SubVI/ReadParam.vi"/>
@@ -229,7 +230,6 @@
 			<Item Name="VG_ARDUINO.vi" Type="VI" URL="../../OP300/EN PRODUCTION/OP300-CONTI-AUTO/VG/VG_ARDUINO.vi"/>
 			<Item Name="VG_ATEQ.vi" Type="VI" URL="../VG/VG_ATEQ.vi"/>
 			<Item Name="VG_BT3562.vi" Type="VI" URL="../VG/VG_BT3562.vi"/>
-			<Item Name="VG_MX5060.vi" Type="VI" URL="../VG/VG_MX5060.vi"/>
 			<Item Name="VG_progressBar.vi" Type="VI" URL="../VG/VG_progressBar.vi"/>
 			<Item Name="VG_ST5520.vi" Type="VI" URL="../VG/VG_ST5520.vi"/>
 			<Item Name="VG_Valide.vi" Type="VI" URL="../../OP600/VG/VG_Valide.vi"/>
@@ -253,7 +253,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0644DFAB-FDDD-4F89-8652-CD73B6E407A3}</Property>
-				<Property Name="Bld_version.build" Type="Int">109</Property>
+				<Property Name="Bld_version.build" Type="Int">121</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ZENPlusOP500V1.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ZEN+ OP500/ZENPlusOP500V1.exe</Property>

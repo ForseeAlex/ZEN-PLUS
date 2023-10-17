@@ -110,45 +110,46 @@
 			<Item Name="ZenPlusOP600_refaire.vi" Type="VI" URL="../SubVI/ZenPlusOP600_refaire.vi"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build">
-			<Item Name="ZENPLUS_OP600" Type="EXE">
+			<Item Name="OP600_ZENPLUS" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{75A041DB-1BAC-4247-A018-95EB4E223CDA}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{854E226A-82E7-4775-833E-F0CFD305A286}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{E9697C6D-B244-43EB-B59F-19D613C4B502}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{8E4B51AC-D670-4A0F-A0D0-6D2FDE0B1853}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.ForseePower.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{91A38719-8840-4230-876F-9B020A207CB3}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">ZENPLUS_OP600</Property>
-				<Property Name="Bld_defaultLanguage" Type="Str">French</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{3ED8EAF7-94E7-4067-9F9D-3F6168E61CAD}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">OP600_ZENPLUS</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/ZENPLUS_OP600</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/OP600_ZENPLUS</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{3780C948-9E01-4DC8-BE34-59DD5940930E}</Property>
-				<Property Name="Bld_version.build" Type="Int">39</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{35578326-DF70-4210-AF38-B3551DF5082F}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">ZENPLUS_OP600.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ZENPLUS_OP600/ZENPLUS_OP600.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">OP600_ZENPLUS.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/OP600_ZENPLUS/OP600_ZENPLUS.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Répertoire de support</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ZENPLUS_OP600/data</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/OP600_ZENPLUS/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2AB48883-AA5F-48F5-A360-C980658C3691}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C00EB21E-40C5-4320-84B4-1AE512CF69D6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Poste de travail/main OP600_V2.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">ZENPLUS_OP600</Property>
-				<Property Name="TgtF_internalName" Type="Str">ZENPLUS_OP600</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
-				<Property Name="TgtF_productName" Type="Str">ZENPLUS_OP600</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{D7B778EF-DBF3-439F-B020-FBEB8C1F833E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">ZENPLUS_OP600.exe</Property>
+				<Property Name="TgtF_companyName" Type="Str">ForseePower</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">OP600_ZENPLUS</Property>
+				<Property Name="TgtF_internalName" Type="Str">OP600_ZENPLUS</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 ForseePower</Property>
+				<Property Name="TgtF_productName" Type="Str">OP600_ZENPLUS</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{5DA46BFF-8663-45CC-9E43-4A60353A26F2}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">OP600_ZENPLUS.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
