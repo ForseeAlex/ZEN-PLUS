@@ -24,7 +24,7 @@
 			<Item Name="PvgeneratorOP150.vi" Type="VI" URL="../PvgeneratorOP150.vi"/>
 			<Item Name="QA.vi" Type="VI" URL="../SubVI/QA.vi"/>
 			<Item Name="SCAN CMU.vi" Type="VI" URL="../../../SCAN CMU/SCAN CMU.vi"/>
-			<Item Name="TestSCAN.vi" Type="VI" URL="../Lib/00 LIB GENERIC/DIVERS/TestSCAN.vi"/>
+			<Item Name="TestSCAN.vi" Type="VI" URL="/&lt;userlib&gt;/DIVERS/TestSCAN.vi"/>
 		</Item>
 		<Item Name="ACIR_DCIR_BT3562.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT356X Series/ACIR_DCIR_BT3562.vi"/>
 		<Item Name="ARRET.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/ARRET.vi"/>
@@ -134,8 +134,9 @@
 			<Item Name="Log_create_logFile_default.vi" Type="VI" URL="../Lib/user.lib/Alex Log/Log_create_logFile_default.vi"/>
 			<Item Name="Log_create_logFile_OP150.vi" Type="VI" URL="../SubVI/Log_create_logFile_OP150.vi"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="OP150ZP_SCANequipements.vi" Type="VI" URL="../SubVI/OP150ZP_SCANequipements.vi"/>
 			<Item Name="OP150ZP_state.ctl" Type="VI" URL="../SubVI/OP150ZP_state.ctl"/>
+			<Item Name="OP300-2-ZP_SCANequipements.vi" Type="VI" URL="../SubVI/OP300-2-ZP_SCANequipements.vi"/>
+			<Item Name="OP300-2ZP_Param_ConfZENplusOP100.vi" Type="VI" URL="../SubVI/OP300-2ZP_Param_ConfZENplusOP100.vi"/>
 			<Item Name="OPERATEUR.vi" Type="VI" URL="../Lib/user.lib/Question/OPERATEUR.vi"/>
 			<Item Name="P_OUINON.vi" Type="VI" URL="../Lib/user.lib/Question/P_OUINON.vi"/>
 			<Item Name="PCANBasic.dll" Type="Document" URL="PCANBasic.dll">
