@@ -32,6 +32,7 @@
 		<Item Name="P_OUINON.vi" Type="VI" URL="/&lt;userlib&gt;/Question/P_OUINON.vi"/>
 		<Item Name="PN.vi" Type="VI" URL="../VG/PN.vi"/>
 		<Item Name="PvgeneratorOP400.vi" Type="VI" URL="../PvgeneratorOP400.vi"/>
+		<Item Name="QR_top_left.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/QR_top_left.vi"/>
 		<Item Name="Sans titre 1.vi" Type="VI" URL="../Sans titre 1.vi"/>
 		<Item Name="TEMPS_TEST.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/TEMPS_TEST.vi"/>
 		<Item Name="test_CAN.vi" Type="VI" URL="../../SCAN CMU/test_CAN.vi"/>
@@ -72,11 +73,10 @@
 				<Item Name="PCANBasic.lvlib" Type="Library" URL="/&lt;userlib&gt;/PCAN Basic/PCANBasic.lvlib"/>
 				<Item Name="PEAK_Init_plus.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/PEAK_Init_plus.vi"/>
 				<Item Name="PEAK_lib_ALEX.lvlib" Type="Library" URL="/&lt;userlib&gt;/Alex_Peak_lib/PEAK_lib_ALEX.lvlib"/>
-				<Item Name="QR_top_left.vi" Type="VI" URL="/&lt;userlib&gt;/Question/QR_top_left.vi"/>
 				<Item Name="Read_Param.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/Read_Param.vi"/>
 				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
 				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
-				<Item Name="Réponse Opérateur.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/Réponse Opérateur.vi"/>
+				<Item Name="Réponse Opérateur.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/Réponse Opérateur.vi"/>
 				<Item Name="SCAN CMU.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/SCAN CMU/SCAN CMU.vi"/>
 				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
 				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
@@ -194,7 +194,7 @@
 			<Item Name="VG_ARDUINO.vi" Type="VI" URL="../VG/VG_ARDUINO.vi"/>
 			<Item Name="VG_BT3562.vi" Type="VI" URL="../VG/VG_BT3562.vi"/>
 			<Item Name="VG_MX5060.vi" Type="VI" URL="../VG/VG_MX5060.vi"/>
-			<Item Name="VG_progressBar.vi" Type="VI" URL="../../OP300/EN PRODUCTION/OP300-CONTI-AUTO/Lib/02 SLIM ZEN WS 500/SubVi/VG_progressBar.vi"/>
+			<Item Name="VG_progressBar.vi" Type="VI" URL="../../OP500/VG/VG_progressBar.vi"/>
 			<Item Name="ZENTYPE.vi" Type="VI" URL="../VG/ZENTYPE.vi"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build">
@@ -216,7 +216,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B081103C-980E-425A-ABFF-E21697C1F5F9}</Property>
-				<Property Name="Bld_version.build" Type="Int">73</Property>
+				<Property Name="Bld_version.build" Type="Int">74</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ZEN Plus OP400 étage haut.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ZEN Plus OP400 étage haut/ZEN Plus OP400 étage haut.exe</Property>

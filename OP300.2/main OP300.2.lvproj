@@ -39,6 +39,7 @@
 		<Item Name="PASSFAIL.vi" Type="VI" URL="/&lt;userlib&gt;/Alex Log/PASSFAIL.vi"/>
 		<Item Name="PCANBasic.lvlib" Type="Library" URL="/&lt;userlib&gt;/PCAN Basic/PCANBasic.lvlib"/>
 		<Item Name="PN.vi" Type="VI" URL="../VG/PN.vi"/>
+		<Item Name="QR_top_left.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/QR_top_left.vi"/>
 		<Item Name="R.vi" Type="VI" URL="../VG/R.vi"/>
 		<Item Name="Sans titre 2.vi" Type="VI" URL="../../../../Users/TeamBT/Desktop/Charbel/Sans titre 2.vi"/>
 		<Item Name="SCAN_VISA.vi" Type="VI" URL="../SubVI/SCAN_VISA.vi"/>
@@ -55,7 +56,7 @@
 				<Item Name="FGV.ctl" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/FGV.ctl"/>
 				<Item Name="OUINON.vi" Type="VI" URL="/&lt;userlib&gt;/Question/OUINON.vi"/>
 				<Item Name="Read_Param.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/Read_Param.vi"/>
-				<Item Name="Réponse Opérateur.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/Réponse Opérateur.vi"/>
+				<Item Name="Réponse Opérateur.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/Réponse Opérateur.vi"/>
 				<Item Name="waitXms.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/waitXms.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
@@ -132,20 +133,19 @@
 			<Item Name="HTML_Table_Head.vi" Type="VI" URL="../PVgenerator/HTML_Table_Head.vi"/>
 			<Item Name="Log_basic.vi" Type="VI" URL="../Lib/user.lib/Alex Log/Log_basic.vi"/>
 			<Item Name="Log_create_logFile_default.vi" Type="VI" URL="../Lib/user.lib/Alex Log/Log_create_logFile_default.vi"/>
-			<Item Name="Log_create_logFile_OP150.vi" Type="VI" URL="../SubVI/Log_create_logFile_OP150.vi"/>
+			<Item Name="Log_create_logFile_OP300-2.vi" Type="VI" URL="../SubVI/Log_create_logFile_OP300-2.vi"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="OP150ZP_state.ctl" Type="VI" URL="../SubVI/OP150ZP_state.ctl"/>
-			<Item Name="OP300-2-ZP_SCANequipements.vi" Type="VI" URL="../SubVI/OP300-2-ZP_SCANequipements.vi"/>
 			<Item Name="OP300-2ZP_Param_ConfZENplusOP100.vi" Type="VI" URL="../SubVI/OP300-2ZP_Param_ConfZENplusOP100.vi"/>
+			<Item Name="OP300-2ZP_SCANequipements.vi" Type="VI" URL="../SubVI/OP300-2ZP_SCANequipements.vi"/>
 			<Item Name="OPERATEUR.vi" Type="VI" URL="../Lib/user.lib/Question/OPERATEUR.vi"/>
 			<Item Name="P_OUINON.vi" Type="VI" URL="../Lib/user.lib/Question/P_OUINON.vi"/>
 			<Item Name="PCANBasic.dll" Type="Document" URL="PCANBasic.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PicoInitVisa.vi" Type="VI" URL="../Lib/00 LIB GENERIC/DIVERS/PicoInitVisa.vi"/>
+			<Item Name="PicoInitVisa.vi" Type="VI" URL="../../../../../Documents/GitHub/ZEN-PLUS/OP150/EN PRODUCTION/OP150/Lib/00 LIB GENERIC/DIVERS/PicoInitVisa.vi"/>
 			<Item Name="POP_GOOGLE.vi" Type="VI" URL="../Lib/user.lib/Alex Log/POP_GOOGLE.vi"/>
 			<Item Name="PvgeneratorOP300.2.vi" Type="VI" URL="../PvgeneratorOP300.2.vi"/>
-			<Item Name="QR_top_left.vi" Type="VI" URL="../Lib/user.lib/Question/QR_top_left.vi"/>
 			<Item Name="R_VG.vi" Type="VI" URL="../SubVI/R_VG.vi"/>
 			<Item Name="Read_PRINT_BT3564.vi" Type="VI" URL="../SubVI/Read_PRINT_BT3564.vi"/>
 			<Item Name="ReadATEQData.vi" Type="VI" URL="../SubVI/ReadATEQData.vi"/>
@@ -174,7 +174,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B8E9AB5B-8746-4DD8-91DA-38A2668D3E43}</Property>
-				<Property Name="Bld_version.build" Type="Int">69</Property>
+				<Property Name="Bld_version.build" Type="Int">71</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OP300.2 ZENPLUS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/OP300.2 ZEN+/OP300.2 ZENPLUS.exe</Property>
