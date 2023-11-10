@@ -40,7 +40,6 @@
 		<Item Name="PCANBasic.lvlib" Type="Library" URL="/&lt;userlib&gt;/PCAN Basic/PCANBasic.lvlib"/>
 		<Item Name="PN.vi" Type="VI" URL="../VG/PN.vi"/>
 		<Item Name="PvgeneratorOP700.vi" Type="VI" URL="../PvgeneratorOP700.vi"/>
-		<Item Name="QR_top_left.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/QR_top_left.vi"/>
 		<Item Name="R.vi" Type="VI" URL="../VG/R.vi"/>
 		<Item Name="Sans titre 2.vi" Type="VI" URL="../../../../Users/TeamBT/Desktop/Charbel/Sans titre 2.vi"/>
 		<Item Name="SCAN_VISA.vi" Type="VI" URL="../SubVI/SCAN_VISA.vi"/>
@@ -82,7 +81,6 @@
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
 				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
 				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
-				<Item Name="Réponse Opérateur.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/Réponse Opérateur.vi"/>
 				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
 				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
 				<Item Name="TestSCAN.vi" Type="VI" URL="/&lt;userlib&gt;/DIVERS/TestSCAN.vi"/>
@@ -202,12 +200,14 @@
 			<Item Name="PicoInitVisa.vi" Type="VI" URL="../../../../../../Documents/GitHub/ZEN-PLUS/OP150/EN PRODUCTION/OP150/Lib/00 LIB GENERIC/DIVERS/PicoInitVisa.vi"/>
 			<Item Name="PicoInitVisa.vi" Type="VI" URL="../Lib/00 LIB GENERIC/DIVERS/PicoInitVisa.vi"/>
 			<Item Name="POP_GOOGLE.vi" Type="VI" URL="../Lib/user.lib/Alex Log/POP_GOOGLE.vi"/>
+			<Item Name="QR_top_left.vi" Type="VI" URL="../Lib/user.lib/Question/QR_top_left.vi"/>
 			<Item Name="R_VG.vi" Type="VI" URL="../SubVI/R_VG.vi"/>
 			<Item Name="Read_Param.vi" Type="VI" URL="../Lib/user.lib/PARAM/Read_Param.vi"/>
 			<Item Name="Read_PRINT_BT3564.vi" Type="VI" URL="../SubVI/Read_PRINT_BT3564.vi"/>
 			<Item Name="ReadATEQData.vi" Type="VI" URL="../SubVI/ReadATEQData.vi"/>
 			<Item Name="Recuperation de donnees.vi" Type="VI" URL="../Lib/02 SLIM ZEN/C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/sub-vi/Recuperation de donnees.vi"/>
 			<Item Name="Réponse Opérateur Pédale.vi" Type="VI" URL="../Lib/user.lib/Question/Réponse Opérateur Pédale.vi"/>
+			<Item Name="Réponse Opérateur.vi" Type="VI" URL="../Lib/user.lib/Question/Réponse Opérateur.vi"/>
 			<Item Name="VG_ATEQ.vi" Type="VI" URL="../VG/VG_ATEQ.vi"/>
 			<Item Name="VG_progressBar.vi" Type="VI" URL="../Lib/02 SLIM ZEN WS 500/SubVi/VG_progressBar.vi"/>
 			<Item Name="ZenPlusOP300_refaire.vi" Type="VI" URL="../SubVI/ZenPlusOP300_refaire.vi"/>
@@ -231,7 +231,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B8E9AB5B-8746-4DD8-91DA-38A2668D3E43}</Property>
-				<Property Name="Bld_version.build" Type="Int">74</Property>
+				<Property Name="Bld_version.build" Type="Int">72</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OP700 ZENPLUS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/OP700 ZEN+/OP700 ZENPLUS.exe</Property>
