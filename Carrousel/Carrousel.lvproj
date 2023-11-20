@@ -14,63 +14,63 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Test" Type="Folder" URL="../subVI/Test">
+		<Item Name="Test" Type="Folder" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/Test">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Ctrl" Type="Folder" URL="../subVI/Ctrl">
+		<Item Name="Ctrl" Type="Folder" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/Ctrl">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Image" Type="Folder" URL="../Image">
+		<Item Name="Image" Type="Folder" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/Image">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Log et conf" Type="Folder" URL="../Log et conf">
+		<Item Name="Log et conf" Type="Folder" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/Log et conf">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="VarGLO" Type="Folder" URL="../VarGLO">
+		<Item Name="VarGLO" Type="Folder" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/VarGLO">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="SubVi" Type="Folder">
-			<Item Name="Init Data BDD.vi" Type="VI" URL="../subVI/Init Data BDD.vi"/>
-			<Item Name="InitEqui.vi" Type="VI" URL="../subVI/InitEqui.vi"/>
-			<Item Name="Inspect OF.vi" Type="VI" URL="../subVI/Inspect OF.vi"/>
-			<Item Name="JeromeErr.vi" Type="VI" URL="../subVI/JeromeErr.vi"/>
-			<Item Name="micro_2.vi" Type="VI" URL="../subVI/micro_2.vi"/>
-			<Item Name="micro1.vi" Type="VI" URL="../subVI/micro1.vi"/>
-			<Item Name="MsgBox.vi" Type="VI" URL="../subVI/MsgBox.vi"/>
-			<Item Name="OFFINISH_compare.vi" Type="VI" URL="../subVI/OFFINISH_compare.vi"/>
-			<Item Name="OFFINISH_parse_PLC.vi" Type="VI" URL="../subVI/OFFINISH_parse_PLC.vi"/>
-			<Item Name="Peakmap.vi" Type="VI" URL="../subVI/Peakmap.vi"/>
-			<Item Name="PLCClose.vi" Type="VI" URL="../subVI/PLCClose.vi"/>
-			<Item Name="PN TYPE.vi" Type="VI" URL="../subVI/PN TYPE.vi"/>
-			<Item Name="READ PLC FRAME.vi" Type="VI" URL="../subVI/READ PLC FRAME.vi"/>
-			<Item Name="ReadLastOF.vi" Type="VI" URL="../subVI/ReadLastOF.vi"/>
-			<Item Name="Sans titre 4.vi" Type="VI" URL="../subVI/Sans titre 4.vi"/>
-			<Item Name="Sans titre 5.vi" Type="VI" URL="../subVI/Sans titre 5.vi"/>
-			<Item Name="Send test DATA.vi" Type="VI" URL="../subVI/Send test DATA.vi"/>
-			<Item Name="trame_ana.vi" Type="VI" URL="../subVI/trame_ana.vi"/>
-			<Item Name="trame_ana_save.vi" Type="VI" URL="../subVI/trame_ana_save.vi"/>
-			<Item Name="TypeSn.vi" Type="VI" URL="../subVI/TypeSn.vi"/>
-			<Item Name="VISA W.vi" Type="VI" URL="../subVI/VISA W.vi"/>
-			<Item Name="WriteLastOF.vi" Type="VI" URL="../subVI/WriteLastOF.vi"/>
-			<Item Name="ChekOF.vi" Type="VI" URL="../subVI/ChekOF.vi"/>
-			<Item Name="comp.vi" Type="VI" URL="../subVI/comp.vi"/>
-			<Item Name="CreateDBBSN_isop.vi" Type="VI" URL="../subVI/CreateDBBSN_isop.vi"/>
-			<Item Name="cut lf cr.vi" Type="VI" URL="../subVI/cut lf cr.vi"/>
-			<Item Name="DATADYN.vi" Type="VI" URL="../subVI/DATADYN.vi"/>
-			<Item Name="DATADYNINGELIANCE.vi" Type="VI" URL="../subVI/DATADYNINGELIANCE.vi"/>
-			<Item Name="DATADYNTEST.vi" Type="VI" URL="../subVI/DATADYNTEST.vi"/>
-			<Item Name="DATADYNTESTmonoligne.vi" Type="VI" URL="../subVI/DATADYNTESTmonoligne.vi"/>
-			<Item Name="DebugInit.vi" Type="VI" URL="../subVI/DebugInit.vi"/>
-			<Item Name="DISP err pack already finish.vi" Type="VI" URL="../subVI/DISP err pack already finish.vi"/>
-			<Item Name="DISP err unknow request.vi" Type="VI" URL="../subVI/DISP err unknow request.vi"/>
+			<Item Name="Init Data BDD.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/Init Data BDD.vi"/>
+			<Item Name="InitEqui.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/InitEqui.vi"/>
+			<Item Name="Inspect OF.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/Inspect OF.vi"/>
+			<Item Name="JeromeErr.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/JeromeErr.vi"/>
+			<Item Name="micro_2.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/micro_2.vi"/>
+			<Item Name="micro1.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/micro1.vi"/>
+			<Item Name="MsgBox.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/MsgBox.vi"/>
+			<Item Name="OFFINISH_compare.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/OFFINISH_compare.vi"/>
+			<Item Name="OFFINISH_parse_PLC.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/OFFINISH_parse_PLC.vi"/>
+			<Item Name="Peakmap.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/Peakmap.vi"/>
+			<Item Name="PLCClose.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/PLCClose.vi"/>
+			<Item Name="PN TYPE.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/PN TYPE.vi"/>
+			<Item Name="READ PLC FRAME.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/READ PLC FRAME.vi"/>
+			<Item Name="ReadLastOF.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/ReadLastOF.vi"/>
+			<Item Name="Sans titre 4.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/Sans titre 4.vi"/>
+			<Item Name="Sans titre 5.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/Sans titre 5.vi"/>
+			<Item Name="Send test DATA.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/Send test DATA.vi"/>
+			<Item Name="trame_ana.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/trame_ana.vi"/>
+			<Item Name="trame_ana_save.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/trame_ana_save.vi"/>
+			<Item Name="TypeSn.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/TypeSn.vi"/>
+			<Item Name="VISA W.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/VISA W.vi"/>
+			<Item Name="WriteLastOF.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/WriteLastOF.vi"/>
+			<Item Name="ChekOF.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/ChekOF.vi"/>
+			<Item Name="comp.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/comp.vi"/>
+			<Item Name="CreateDBBSN_isop.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/CreateDBBSN_isop.vi"/>
+			<Item Name="cut lf cr.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/cut lf cr.vi"/>
+			<Item Name="DATADYN.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/DATADYN.vi"/>
+			<Item Name="DATADYNINGELIANCE.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/DATADYNINGELIANCE.vi"/>
+			<Item Name="DATADYNTEST.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/DATADYNTEST.vi"/>
+			<Item Name="DATADYNTESTmonoligne.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/DATADYNTESTmonoligne.vi"/>
+			<Item Name="DebugInit.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/DebugInit.vi"/>
+			<Item Name="DISP err pack already finish.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/DISP err pack already finish.vi"/>
+			<Item Name="DISP err unknow request.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/DISP err unknow request.vi"/>
 		</Item>
-		<Item Name="TestFinal" Type="Folder" URL="../subVI/TestFinal">
+		<Item Name="TestFinal" Type="Folder" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/TestFinal">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="dcir" Type="Folder" URL="../subVI/dcir">
+		<Item Name="dcir" Type="Folder" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/dcir">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="main.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/main.vi"/>
 		<Item Name="VG_progressBar.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/VG_progressBar.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -115,23 +115,23 @@
 				<Item Name="IT6000C.lvlib" Type="Library" URL="/&lt;instrlib&gt;/IT6000C/IT6000C.lvlib"/>
 				<Item Name="Read Output.vi" Type="VI" URL="/&lt;instrlib&gt;/IT6000C/Public/Data/Read Output.vi"/>
 			</Item>
-			<Item Name="SELECT COUNT SN.vi" Type="VI" URL="../DB/SELECT COUNT SN.vi"/>
+			<Item Name="SELECT COUNT SN.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/DB/SELECT COUNT SN.vi"/>
 			<Item Name="PCANBasic.dll" Type="Document" URL="PCANBasic.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Cut frame 40x.vi" Type="VI" URL="../../../00 LIB GENERIC/COM CMOD/Cut frame 40x.vi"/>
-			<Item Name="Check cmod P15 VAL INGELIANCE.vi" Type="VI" URL="../../../00 LIB GENERIC/COM CMOD/Check cmod P15 VAL INGELIANCE.vi"/>
-			<Item Name="PushGoldenSingleData.vi" Type="VI" URL="../DB/PushGoldenSingleData.vi"/>
-			<Item Name="PushGolden.vi" Type="VI" URL="../DB/PushGolden.vi"/>
-			<Item Name="Loop_Ternaire_PASS_FAIL.vi" Type="VI" URL="../../../00 LIB GENERIC/COM CMOD/Loop_Ternaire_PASS_FAIL.vi"/>
-			<Item Name="OF state.vi" Type="VI" URL="../DB/OF state.vi"/>
-			<Item Name="OF state PUSH.vi" Type="VI" URL="../DB/OF state PUSH.vi"/>
-			<Item Name="SELECT LIMITES FROM OP100Limites.vi" Type="VI" URL="../DB/SELECT LIMITES FROM OP100Limites.vi"/>
-			<Item Name="CREATE OF DB.vi" Type="VI" URL="../DB/CREATE OF DB.vi"/>
-			<Item Name="TracaHioki.vi" Type="VI" URL="../DB/TracaHioki.vi"/>
-			<Item Name="GB_DCIR.vi" Type="VI" URL="../subVI/GB_DCIR/GB_DCIR.vi"/>
-			<Item Name="FinalCheck.vi" Type="VI" URL="../DB/FinalCheck.vi"/>
-			<Item Name="Check cmod P15 VAL.vi" Type="VI" URL="../../../00 LIB GENERIC/COM CMOD/Check cmod P15 VAL.vi"/>
+			<Item Name="Cut frame 40x.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/00 LIB GENERIC/COM CMOD/Cut frame 40x.vi"/>
+			<Item Name="Check cmod P15 VAL INGELIANCE.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/00 LIB GENERIC/COM CMOD/Check cmod P15 VAL INGELIANCE.vi"/>
+			<Item Name="PushGoldenSingleData.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/DB/PushGoldenSingleData.vi"/>
+			<Item Name="PushGolden.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/DB/PushGolden.vi"/>
+			<Item Name="Loop_Ternaire_PASS_FAIL.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/00 LIB GENERIC/COM CMOD/Loop_Ternaire_PASS_FAIL.vi"/>
+			<Item Name="OF state.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/DB/OF state.vi"/>
+			<Item Name="OF state PUSH.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/DB/OF state PUSH.vi"/>
+			<Item Name="SELECT LIMITES FROM OP100Limites.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/DB/SELECT LIMITES FROM OP100Limites.vi"/>
+			<Item Name="CREATE OF DB.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/DB/CREATE OF DB.vi"/>
+			<Item Name="TracaHioki.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/DB/TracaHioki.vi"/>
+			<Item Name="GB_DCIR.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/subVI/GB_DCIR/GB_DCIR.vi"/>
+			<Item Name="FinalCheck.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/Carrousel/DB/FinalCheck.vi"/>
+			<Item Name="Check cmod P15 VAL.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/00 LIB GENERIC/COM CMOD/Check cmod P15 VAL.vi"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build"/>
 	</Item>

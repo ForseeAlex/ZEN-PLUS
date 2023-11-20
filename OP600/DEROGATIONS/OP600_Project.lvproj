@@ -10,15 +10,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="dero.vi" Type="VI" URL="../../../../../../Downloads/dero.vi"/>
-		<Item Name="GetP.vi" Type="VI" URL="../Lib/user.lib/Question/GetP.vi"/>
+		<Item Name="dero.vi" Type="VI" URL="/C/Users/kabre/Downloads/dero.vi"/>
+		<Item Name="GetP.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/Lib/user.lib/Question/GetP.vi"/>
 		<Item Name="Initialize.h" Type="VI" URL="/&lt;instrlib&gt;/lv_mx5060/Initialize.h"/>
-		<Item Name="Log_create_logFile_OP600.vi" Type="VI" URL="../SubVI/Log_create_logFile_OP600.vi"/>
-		<Item Name="main OP600_V2.vi" Type="VI" URL="../main OP600_V2.vi"/>
-		<Item Name="OP600ZP_FDT_V2.vi" Type="VI" URL="../SubVI/OP600ZP_FDT_V2.vi"/>
-		<Item Name="OP600ZP_INTLCK_LOOP.vi" Type="VI" URL="../SubVI/OP600ZP_INTLCK_LOOP.vi"/>
-		<Item Name="OUINON.vi" Type="VI" URL="../SubVI/OUINON.vi"/>
-		<Item Name="QR_top_left.vi" Type="VI" URL="../SubVI/QR_top_left.vi"/>
+		<Item Name="Log_create_logFile_OP600.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/Log_create_logFile_OP600.vi"/>
+		<Item Name="main OP600_V2.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/main OP600_V2.vi"/>
+		<Item Name="OP600ZP_FDT_V2.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_FDT_V2.vi"/>
+		<Item Name="OP600ZP_INTLCK_LOOP.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_INTLCK_LOOP.vi"/>
+		<Item Name="OUINON.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OUINON.vi"/>
+		<Item Name="QR_top_left.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/QR_top_left.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="CLEAN CR LF.vi" Type="VI" URL="/&lt;userlib&gt;/DIVERS/CLEAN CR LF.vi"/>
@@ -59,55 +59,55 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="BEEP.vi" Type="VI" URL="../SubVI/BEEP.vi"/>
-			<Item Name="CheminDeBase.vi" Type="VI" URL="../SubVI/CheminDeBase.vi"/>
-			<Item Name="DCIR@1C.vi" Type="VI" URL="../VG/DCIR@1C.vi"/>
-			<Item Name="delay.vi" Type="VI" URL="../PVgenerator/delay.vi"/>
-			<Item Name="HTML_Table_Data.vi" Type="VI" URL="../PVgenerator/HTML_Table_Data.vi"/>
-			<Item Name="HTML_Table_Head.vi" Type="VI" URL="../PVgenerator/HTML_Table_Head.vi"/>
-			<Item Name="IS30%.vi" Type="VI" URL="../VG/IS30%.vi"/>
+			<Item Name="BEEP.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/BEEP.vi"/>
+			<Item Name="CheminDeBase.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/CheminDeBase.vi"/>
+			<Item Name="DCIR@1C.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/VG/DCIR@1C.vi"/>
+			<Item Name="delay.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/PVgenerator/delay.vi"/>
+			<Item Name="HTML_Table_Data.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/PVgenerator/HTML_Table_Data.vi"/>
+			<Item Name="HTML_Table_Head.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/PVgenerator/HTML_Table_Head.vi"/>
+			<Item Name="IS30%.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/VG/IS30%.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Multi_OUI_NON.vi" Type="VI" URL="../SubVI/Multi_OUI_NON.vi"/>
-			<Item Name="OCV.vi" Type="VI" URL="../VG/OCV.vi"/>
-			<Item Name="OP300ZP_SCANequipements.vi" Type="VI" URL="../../OP300/SubVI/OP300ZP_SCANequipements.vi"/>
-			<Item Name="OP500ZP_Test_DataDyn.vi" Type="VI" URL="../../OP500/SubVI/OP500ZP_Test_DataDyn.vi"/>
-			<Item Name="OP500ZP_VGConf.vi" Type="VI" URL="../SubVI/OP500ZP_VGConf.vi"/>
-			<Item Name="OP600ZP_Assembly.vi" Type="VI" URL="../SubVI/OP600ZP_Assembly.vi"/>
-			<Item Name="OP600ZP_CAN.vi" Type="VI" URL="../SubVI/OP600ZP_CAN.vi"/>
-			<Item Name="OP600ZP_CLUSTER_ISO.vi" Type="VI" URL="../SubVI/OP600ZP_CLUSTER_ISO.vi"/>
-			<Item Name="OP600ZP_CLUSTER_OCVACIR.vi" Type="VI" URL="../SubVI/OP600ZP_CLUSTER_OCVACIR.vi"/>
-			<Item Name="OP600ZP_CLUSTER_SOFTS.vi" Type="VI" URL="../SubVI/OP600ZP_CLUSTER_SOFTS.vi"/>
-			<Item Name="OP600ZP_CLUSTER_SOFTS_FIN.vi" Type="VI" URL="../SubVI/OP600ZP_CLUSTER_SOFTS_FIN.vi"/>
-			<Item Name="OP600ZP_DCIR.vi" Type="VI" URL="../SubVI/OP600ZP_DCIR.vi"/>
-			<Item Name="OP600ZP_FDT_FIN.vi" Type="VI" URL="../SubVI/OP600ZP_FDT_FIN.vi"/>
-			<Item Name="OP600ZP_GlobalVariables.vi" Type="VI" URL="../SubVI/OP600ZP_GlobalVariables.vi"/>
-			<Item Name="OP600ZP_ISO.vi" Type="VI" URL="../SubVI/OP600ZP_ISO.vi"/>
-			<Item Name="OP600ZP_LaunchEXE.vi" Type="VI" URL="../SubVI/OP600ZP_LaunchEXE.vi"/>
-			<Item Name="OP600ZP_LaunchLB.vi" Type="VI" URL="../SubVI/OP600ZP_LaunchLB.vi"/>
-			<Item Name="OP600ZP_MicroScan.vi" Type="VI" URL="../SubVI/OP600ZP_MicroScan.vi"/>
-			<Item Name="OP600ZP_NouveauDossier.vi" Type="VI" URL="../SubVI/OP600ZP_NouveauDossier.vi"/>
-			<Item Name="OP600ZP_PreCharge.vi" Type="VI" URL="../SubVI/OP600ZP_PreCharge.vi"/>
-			<Item Name="OP600ZP_SN_Reader.vi" Type="VI" URL="../SubVI/OP600ZP_SN_Reader.vi"/>
-			<Item Name="OP600ZP_Softs.vi" Type="VI" URL="../SubVI/OP600ZP_Softs.vi"/>
-			<Item Name="OP600ZP_state.ctl" Type="VI" URL="../SubVI/OP600ZP_state.ctl"/>
-			<Item Name="OP600ZP_Ubatt_Post_Relax.vi" Type="VI" URL="../SubVI/OP600ZP_Ubatt_Post_Relax.vi"/>
-			<Item Name="OP600ZP_VGConf.vi" Type="VI" URL="../SubVI/OP600ZP_VGConf.vi"/>
-			<Item Name="PackType.vi" Type="VI" URL="../VG/PackType.vi"/>
-			<Item Name="PN.vi" Type="VI" URL="../VG/PN.vi"/>
-			<Item Name="PvgeneratorOP600.vi" Type="VI" URL="../PvgeneratorOP600.vi"/>
-			<Item Name="REVION_VI.vi" Type="VI" URL="../SubVI/REVION_VI.vi"/>
-			<Item Name="Revision.vi" Type="VI" URL="../VG/Revision.vi"/>
-			<Item Name="Réponse Opérateur Pédale.vi" Type="VI" URL="../../../OP400/Lib/user.lib/Question/Réponse Opérateur Pédale.vi"/>
-			<Item Name="SCAN CMU.vi" Type="VI" URL="../../SCAN CMU/SCAN CMU.vi"/>
+			<Item Name="Multi_OUI_NON.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/Multi_OUI_NON.vi"/>
+			<Item Name="OCV.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/VG/OCV.vi"/>
+			<Item Name="OP300ZP_SCANequipements.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/OP300/SubVI/OP300ZP_SCANequipements.vi"/>
+			<Item Name="OP500ZP_Test_DataDyn.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/OP500/SubVI/OP500ZP_Test_DataDyn.vi"/>
+			<Item Name="OP500ZP_VGConf.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP500ZP_VGConf.vi"/>
+			<Item Name="OP600ZP_Assembly.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_Assembly.vi"/>
+			<Item Name="OP600ZP_CAN.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_CAN.vi"/>
+			<Item Name="OP600ZP_CLUSTER_ISO.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_CLUSTER_ISO.vi"/>
+			<Item Name="OP600ZP_CLUSTER_OCVACIR.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_CLUSTER_OCVACIR.vi"/>
+			<Item Name="OP600ZP_CLUSTER_SOFTS.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_CLUSTER_SOFTS.vi"/>
+			<Item Name="OP600ZP_CLUSTER_SOFTS_FIN.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_CLUSTER_SOFTS_FIN.vi"/>
+			<Item Name="OP600ZP_DCIR.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_DCIR.vi"/>
+			<Item Name="OP600ZP_FDT_FIN.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_FDT_FIN.vi"/>
+			<Item Name="OP600ZP_GlobalVariables.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_GlobalVariables.vi"/>
+			<Item Name="OP600ZP_ISO.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_ISO.vi"/>
+			<Item Name="OP600ZP_LaunchEXE.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_LaunchEXE.vi"/>
+			<Item Name="OP600ZP_LaunchLB.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_LaunchLB.vi"/>
+			<Item Name="OP600ZP_MicroScan.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_MicroScan.vi"/>
+			<Item Name="OP600ZP_NouveauDossier.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_NouveauDossier.vi"/>
+			<Item Name="OP600ZP_PreCharge.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_PreCharge.vi"/>
+			<Item Name="OP600ZP_SN_Reader.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_SN_Reader.vi"/>
+			<Item Name="OP600ZP_Softs.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_Softs.vi"/>
+			<Item Name="OP600ZP_state.ctl" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_state.ctl"/>
+			<Item Name="OP600ZP_Ubatt_Post_Relax.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_Ubatt_Post_Relax.vi"/>
+			<Item Name="OP600ZP_VGConf.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/OP600ZP_VGConf.vi"/>
+			<Item Name="PackType.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/VG/PackType.vi"/>
+			<Item Name="PN.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/VG/PN.vi"/>
+			<Item Name="PvgeneratorOP600.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/PvgeneratorOP600.vi"/>
+			<Item Name="REVION_VI.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/REVION_VI.vi"/>
+			<Item Name="Revision.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/VG/Revision.vi"/>
+			<Item Name="Réponse Opérateur Pédale.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP400/Lib/user.lib/Question/Réponse Opérateur Pédale.vi"/>
+			<Item Name="SCAN CMU.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/SCAN CMU/SCAN CMU.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Timer2.vi" Type="VI" URL="../SubVI/Timer2.vi"/>
-			<Item Name="Ubatt.vi" Type="VI" URL="../VG/Ubatt.vi"/>
-			<Item Name="VG_progressBar.vi" Type="VI" URL="../VG/VG_progressBar.vi"/>
-			<Item Name="ZenPlusOP600_refaire.vi" Type="VI" URL="../SubVI/ZenPlusOP600_refaire.vi"/>
+			<Item Name="Timer2.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/Timer2.vi"/>
+			<Item Name="Ubatt.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/VG/Ubatt.vi"/>
+			<Item Name="VG_progressBar.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/VG/VG_progressBar.vi"/>
+			<Item Name="ZenPlusOP600_refaire.vi" Type="VI" URL="/C/Users/kabre/Documents/GitHub/ZEN-PLUS/OP600/DEROGATIONS/SubVI/ZenPlusOP600_refaire.vi"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build">
 			<Item Name="OP600_ZENPLUS" Type="EXE">

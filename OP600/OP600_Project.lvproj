@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="BDD_BRANCHE.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/BDD_BRANCHE.vi"/>
+		<Item Name="BDD_VERIF_OP.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/BDD_VERIF_OP.vi"/>
 		<Item Name="CMD" Type="VI" URL="../VG/CMD"/>
 		<Item Name="CMD_DRIVE_CAN.vi" Type="VI" URL="../../PCAN Basic/CMD_DRIVE_CAN.vi"/>
 		<Item Name="CMD_PDU.vi" Type="VI" URL="../SubVI/CMD_PDU.vi"/>
@@ -33,6 +34,7 @@
 		<Item Name="PEAK_Init_plus.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/PEAK_Init_plus.vi"/>
 		<Item Name="PEAK_lib_ALEX.lvlib" Type="Library" URL="/&lt;userlib&gt;/Alex_Peak_lib/PEAK_lib_ALEX.lvlib"/>
 		<Item Name="POWER_DISTRIBUTION_STATUS.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain_lib/POWER_DISTRIBUTION_STATUS.vi"/>
+		<Item Name="QR_top_left.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/QR_top_left.vi"/>
 		<Item Name="QR_top_left.vi" Type="VI" URL="../SubVI/QR_top_left.vi"/>
 		<Item Name="RAZ DTC J1 AUTO.vi" Type="VI" URL="/&lt;vilib&gt;/Sylvain.lib/00 LIB GENERIC/DTC/RAZ DTC J1 AUTO.vi"/>
 		<Item Name="RELAX.vi" Type="VI" URL="../SubVI/RELAX.vi"/>
@@ -53,6 +55,7 @@
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
+				<Item Name="BDD_CHECK_GENERAL.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/BDD_CHECK_GENERAL.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 				<Item Name="CLEAN CR LF.vi" Type="VI" URL="/&lt;userlib&gt;/DIVERS/CLEAN CR LF.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
@@ -82,6 +85,7 @@
 				<Item Name="Heure.vi" Type="VI" URL="/&lt;userlib&gt;/DIVERS/Heure.vi"/>
 				<Item Name="Log_basic.vi" Type="VI" URL="/&lt;userlib&gt;/Alex Log/Log_basic.vi"/>
 				<Item Name="Log_create_logFile_default.vi" Type="VI" URL="/&lt;userlib&gt;/Alex Log/Log_create_logFile_default.vi"/>
+				<Item Name="OP_PROGRESS.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/OP_PROGRESS.vi"/>
 				<Item Name="OPERATEUR.vi" Type="VI" URL="/&lt;userlib&gt;/Question/OPERATEUR.vi"/>
 				<Item Name="P_OUINON.vi" Type="VI" URL="/&lt;userlib&gt;/Question/P_OUINON.vi"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
@@ -104,7 +108,6 @@
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 				<Item Name="waitXms.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/waitXms.vi"/>
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
-				<Item Name="ZEN77to84.vi" Type="VI" URL="/&lt;userlib&gt;/Question/ZEN77to84.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1cee9f8bde3db106" Type="VI" URL="/&lt;vilib&gt;/MakerHub/LINX/Resources/1cee9f8bde3db106"/>
@@ -270,8 +273,6 @@
 			<Item Name="PN.vi" Type="VI" URL="../VG/PN.vi"/>
 			<Item Name="PvgeneratorOP600.vi" Type="VI" URL="../PvgeneratorOP600.vi"/>
 			<Item Name="QA.vi" Type="VI" URL="../../OP500/SubVI/QA.vi"/>
-			<Item Name="REVION_VI.vi" Type="VI" URL="../SubVI/REVION_VI.vi"/>
-			<Item Name="Revision.vi" Type="VI" URL="../VG/Revision.vi"/>
 			<Item Name="Réponse Opérateur Pédale.vi" Type="VI" URL="../../OP400/Lib/user.lib/Question/Réponse Opérateur Pédale.vi"/>
 			<Item Name="SCAN CMU.vi" Type="VI" URL="../../SCAN CMU/SCAN CMU.vi"/>
 			<Item Name="System" Type="VI" URL="System">
