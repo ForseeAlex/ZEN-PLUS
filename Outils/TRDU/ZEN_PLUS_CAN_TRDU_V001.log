@@ -1,0 +1,132 @@
+Conversion Warnings Log
+
+
+MSG_ID: 448525058 	MSG_TYPE: X 	MSG_NAME: S2_TRDU_Sensor_Status
+	SIG_NAME: Low_Power_Bit, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Voltage_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Undervoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Temperature_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TC_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Sensor_replacement, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: RH_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Overvoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Hydrogen_u16, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Humidity_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: H2_out_of_range, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 448525072 	MSG_TYPE: X 	MSG_NAME: S10_TRDU_Sensor_Status
+	SIG_NAME: Low_Power_Bit, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Voltage_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Undervoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Temperature_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TC_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Sensor_replacement, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: RH_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Overvoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Hydrogen_u16, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Humidity_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: H2_out_of_range, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 448525064 	MSG_TYPE: X 	MSG_NAME: S8_TRDU_Sensor_Status
+	SIG_NAME: Low_Power_Bit, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Voltage_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Undervoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Temperature_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TC_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Sensor_replacement, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: RH_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Overvoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Hydrogen_u16, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Humidity_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: H2_out_of_range, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 448525065 	MSG_TYPE: X 	MSG_NAME: S9_TRDU_Sensor_Status
+	SIG_NAME: Low_Power_Bit, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Voltage_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Undervoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Temperature_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TC_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Sensor_replacement, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: RH_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Overvoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Hydrogen_u16, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Humidity_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: H2_out_of_range, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 448525063 	MSG_TYPE: X 	MSG_NAME: S7_TRDU_Sensor_Status
+	SIG_NAME: Low_Power_Bit, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Voltage_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Undervoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Temperature_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TC_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Sensor_replacement, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: RH_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Overvoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Hydrogen_u16, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Humidity_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: H2_out_of_range, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 448525062 	MSG_TYPE: X 	MSG_NAME: S6_TRDU_Sensor_Status
+	SIG_NAME: Low_Power_Bit, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Voltage_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Undervoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Temperature_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TC_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Sensor_replacement, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: RH_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Overvoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Hydrogen_u16, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Humidity_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: H2_out_of_range, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 448525061 	MSG_TYPE: X 	MSG_NAME: S5_TRDU_Sensor_Status
+	SIG_NAME: Low_Power_Bit, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Voltage_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Undervoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Temperature_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TC_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Sensor_replacement, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: RH_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Overvoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Hydrogen_u16, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Humidity_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: H2_out_of_range, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 448525060 	MSG_TYPE: X 	MSG_NAME: S4_TRDU_Sensor_Status
+	SIG_NAME: Low_Power_Bit, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Voltage_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Undervoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Temperature_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TC_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Sensor_replacement, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: RH_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Overvoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Hydrogen_u16, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Humidity_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: H2_out_of_range, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 448525059 	MSG_TYPE: X 	MSG_NAME: S3_TRDU_Sensor_Status
+	SIG_NAME: Low_Power_Bit, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Voltage_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Undervoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Temperature_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TC_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Sensor_replacement, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: RH_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Overvoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Hydrogen_u16, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Humidity_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: H2_out_of_range, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 448525057 	MSG_TYPE: X 	MSG_NAME: S1_TRDU_Sensor_Status
+	SIG_NAME: Low_Power_Bit, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Voltage_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Undervoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Temperature_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TC_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Sensor_replacement, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: RH_Issue, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Overvoltage, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Hydrogen_u16, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Humidity_u8, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: H2_out_of_range, STATUS: Invalid Max or Min value., ACTION: Value Set to default
