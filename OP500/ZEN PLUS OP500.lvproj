@@ -45,6 +45,7 @@
 		<Item Name="Untitled 1.vi" Type="VI" URL="../../../../../Downloads/Untitled 1.vi"/>
 		<Item Name="Untitled 3" Type="VI"/>
 		<Item Name="VG_branche.vi" Type="VI" URL="../VG/VG_branche.vi"/>
+		<Item Name="VG_WaveChart.vi" Type="VI" URL="../VG/VG_WaveChart.vi"/>
 		<Item Name="VG_YESNON.vi" Type="VI" URL="../Lib/user.lib/Question/VG_YESNON.vi"/>
 		<Item Name="ZENP_CAN.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/ZENP_CAN.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">

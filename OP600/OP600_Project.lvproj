@@ -21,6 +21,7 @@
 		<Item Name="DTC_CHECK_PRESENCE.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/DTC_CHECK_PRESENCE.vi"/>
 		<Item Name="DTC_ERASE.vi" Type="VI" URL="../SubVI/DTC_ERASE.vi"/>
 		<Item Name="DTC_PERSISTANT.vi" Type="VI" URL="../SubVI/DTC_PERSISTANT.vi"/>
+		<Item Name="Global PEAK.vi" Type="VI" URL="../VG/Global PEAK.vi"/>
 		<Item Name="Initialize.h" Type="VI" URL="/&lt;instrlib&gt;/lv_mx5060/Initialize.h"/>
 		<Item Name="IT6000C.lvlib" Type="Library" URL="/&lt;instrlib&gt;/IT6000C/IT6000C.lvlib"/>
 		<Item Name="LMH-LINX.lvlib" Type="Library" URL="/&lt;vilib&gt;/MakerHub/LINX/LMH-LINX.lvlib"/>
@@ -33,6 +34,7 @@
 		<Item Name="PEAK_Can_Read_EXTENDED.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/PEAK_Can_Read_EXTENDED.vi"/>
 		<Item Name="PEAK_Init_plus.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/PEAK_Init_plus.vi"/>
 		<Item Name="PEAK_lib_ALEX.lvlib" Type="Library" URL="/&lt;userlib&gt;/Alex_Peak_lib/PEAK_lib_ALEX.lvlib"/>
+		<Item Name="Peakmap.vi" Type="VI" URL="../SubVI/Peakmap.vi"/>
 		<Item Name="POWER_DISTRIBUTION_STATUS.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain_lib/POWER_DISTRIBUTION_STATUS.vi"/>
 		<Item Name="QR_top_left.vi" Type="VI" URL="../SubVI/QR_top_left.vi"/>
 		<Item Name="RAZ DTC J1 AUTO.vi" Type="VI" URL="/&lt;vilib&gt;/Sylvain.lib/00 LIB GENERIC/DTC/RAZ DTC J1 AUTO.vi"/>
@@ -258,6 +260,7 @@
 			<Item Name="DCIR@1C.vi" Type="VI" URL="../DEROGATIONS/VG/DCIR@1C.vi"/>
 			<Item Name="delay.vi" Type="VI" URL="../../OP150/EN PRODUCTION/OP150/PVgenerator/delay.vi"/>
 			<Item Name="DTC_READ.vi" Type="VI" URL="../SubVI/DTC_READ.vi"/>
+			<Item Name="Global PEAK OP600.vi" Type="VI" URL="../VG/Global PEAK OP600.vi"/>
 			<Item Name="Global PEAK.vi" Type="VI" URL="../../Carrousel/VarGLO/Global PEAK.vi"/>
 			<Item Name="Hitech_init.vi" Type="VI" URL="../../Carrousel/subVI/dcir/Hitech_init.vi"/>
 			<Item Name="HTML_Table_Data.vi" Type="VI" URL="../PVgenerator/HTML_Table_Data.vi"/>
