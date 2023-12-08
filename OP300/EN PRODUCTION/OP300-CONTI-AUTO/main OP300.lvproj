@@ -37,7 +37,10 @@
 		<Item Name="fermer.vi" Type="VI" URL="../../MX5060/fermer.vi"/>
 		<Item Name="Format.vi" Type="VI" URL="../SubVI/Format.vi"/>
 		<Item Name="FormatTest.vi" Type="VI" URL="../SubVI/FormatTest.vi"/>
+		<Item Name="Init.vi" Type="VI" URL="../VG/Init.vi"/>
+		<Item Name="ISOOCV.vi" Type="VI" URL="../VG/ISOOCV.vi"/>
 		<Item Name="IsoSPI Spying Tool data interpretation.vi" Type="VI" URL="../SubVI/IsoSPI Spying Tool data interpretation.vi"/>
+		<Item Name="ISOSPI.vi" Type="VI" URL="../VG/ISOSPI.vi"/>
 		<Item Name="Log_create_logFile_OP300.vi" Type="VI" URL="../SubVI/Log_create_logFile_OP300.vi"/>
 		<Item Name="main OP300.vi" Type="VI" URL="../main OP300.vi"/>
 		<Item Name="MaketabTest.vi" Type="VI" URL="../SubVI/ISO/MaketabTest.vi"/>
@@ -64,6 +67,7 @@
 		<Item Name="TestSCAN.vi" Type="VI" URL="/&lt;userlib&gt;/DIVERS/TestSCAN.vi"/>
 		<Item Name="TestSCAN_MX5060.vi" Type="VI" URL="../../../../OP400/SubVI/TestSCAN_MX5060.vi"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../../../../../../../Downloads/Untitled 1.vi"/>
+		<Item Name="Values.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/Values.vi"/>
 		<Item Name="VG_ARDUINO.vi" Type="VI" URL="../VG/VG_ARDUINO.vi"/>
 		<Item Name="VG_BT3562.vi" Type="VI" URL="../VG/VG_BT3562.vi"/>
 		<Item Name="VG_HYDRAU.vi" Type="VI" URL="../SubVI/VG_HYDRAU.vi"/>
@@ -73,6 +77,7 @@
 				<Item Name="IT6000C.lvlib" Type="Library" URL="/&lt;instrlib&gt;/IT6000C/IT6000C.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="Arduino_CDP_3.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/Arduino_CDP_3.vi"/>
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
 				<Item Name="BDD_CHECK_GENERAL.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/BDD_CHECK_GENERAL.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -159,7 +164,6 @@
 				<Item Name="Intialize Keyboard.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Intialize Keyboard.vi"/>
 				<Item Name="joystickAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/joystickAcquire.vi"/>
 				<Item Name="keyboardAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/keyboardAcquire.vi"/>
-				<Item Name="liblinxdevice.dll" Type="Document" URL="/&lt;vilib&gt;/MakerHub/LINX/Resources/liblinxdevice.dll"/>
 				<Item Name="LMH-LINX.lvlib" Type="Library" URL="/&lt;vilib&gt;/MakerHub/LINX/LMH-LINX.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -177,12 +181,14 @@
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
+				<Item Name="Reset myRIO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Utilities/VIs/Reset myRIO.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Smart Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/DIO/VIs/Smart Open.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
@@ -197,6 +203,7 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/DIO/VIs/Write.vi"/>
 			</Item>
 			<Item Name="ARRET.vi" Type="VI" URL="../SubVI/ARRET.vi"/>
 			<Item Name="BriqueISOSPI.vi" Type="VI" URL="../SubVI/BriqueISOSPI.vi"/>
@@ -207,6 +214,9 @@
 			<Item Name="Heure.vi" Type="VI" URL="../Lib/00 LIB GENERIC/DIVERS/Heure.vi"/>
 			<Item Name="HTML_Table_Data.vi" Type="VI" URL="../PVgenerator/HTML_Table_Data.vi"/>
 			<Item Name="HTML_Table_Head.vi" Type="VI" URL="../PVgenerator/HTML_Table_Head.vi"/>
+			<Item Name="liblinxdevice.dll" Type="Document" URL="liblinxdevice.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Log_basic.vi" Type="VI" URL="../Lib/user.lib/Alex Log/Log_basic.vi"/>
 			<Item Name="Log_create_logFile_default.vi" Type="VI" URL="../Lib/user.lib/Alex Log/Log_create_logFile_default.vi"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
@@ -236,6 +246,7 @@
 			<Item Name="Recuperation de donnees.vi" Type="VI" URL="../PVgenerator/Recuperation de donnees.vi"/>
 			<Item Name="Réponse Opérateur Pédale.vi" Type="VI" URL="../Lib/user.lib/Question/Réponse Opérateur Pédale.vi"/>
 			<Item Name="SCAN_VISA.vi" Type="VI" URL="../SubVI/SCAN_VISA.vi"/>
+			<Item Name="TestSCAN_MX5060.vi" Type="VI" URL="../SubVI/TestSCAN_MX5060.vi"/>
 			<Item Name="Variables globales outil isospi sans MCU.vi" Type="VI" URL="../SubVI/ISO/Variables globales outil isospi sans MCU.vi"/>
 			<Item Name="VG_MX5060.vi" Type="VI" URL="../VG/VG_MX5060.vi"/>
 			<Item Name="VG_progressBar.vi" Type="VI" URL="../../../../OP500/VG/VG_progressBar.vi"/>
@@ -261,7 +272,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B8E9AB5B-8746-4DD8-91DA-38A2668D3E43}</Property>
-				<Property Name="Bld_version.build" Type="Int">128</Property>
+				<Property Name="Bld_version.build" Type="Int">134</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OP300 ZENPLUS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/OP300 ZEN+/OP300 ZENPLUS.exe</Property>

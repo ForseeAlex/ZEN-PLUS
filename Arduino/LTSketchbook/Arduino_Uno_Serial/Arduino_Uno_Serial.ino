@@ -46,23 +46,27 @@ void loop()
   //Your Code Here, But It will Slow Down The Connection With LabVIEW
 }
 
-int myCustomCommand(unsigned char numInputBytes, unsigned char* input, unsigned char* numResponseBytes, unsigned char* response)
-{
-    // Vérifiez si numInputBytes est différent de 0
+int myCustomCommand(unsigned char numInputBytes, unsigned char* input, unsigned char* numResponseBytes, unsigned char* response) {
+    // Check if numInputBytes is equal to 1
     if (numInputBytes == 1) {
-        // Si numInputBytes est différent de 0, activez la broche n°4
-        pinMode(4, OUTPUT);  // Définir la broche 4 en tant que sortie
-        digitalWrite(4, HIGH); // Mettre la broche 4 à HIGH (activer)
+        // If numInputBytes is equal to 1, activate pin 4
+        pinMode(4, OUTPUT);  // Set pin 4 as output
+        digitalWrite(4, HIGH); // Set pin 4 to HIGH (activate)
+        *numResponseBytes = 1;
     } else {
-        // Sinon, désactivez la broche n°4
-        digitalWrite(4, LOW); // Mettre la broche 4 à LOW (désactiver)
+        // Otherwise, deactivate pin 4
+        digitalWrite(4, LOW); // Set pin 4 to LOW (deactivate)
+        *numResponseBytes = 3;
+        // Fill the response array with arbitrary values (1, 2, 3)
+        response[0] = 1;
+        response[1] = 2;
+        response[2] = 3;
     }
-    
-    // Pas de données de réponse dans ce cas, donc *numResponseBytes = 0
-    *numResponseBytes = 0;
     
     return 0;
 }
+
+
 
 
 
