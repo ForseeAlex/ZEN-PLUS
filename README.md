@@ -1,7 +1,7 @@
 # ZEN-PLUS
 Répertoire labVIEW ZEN+
-Version : v1.0
-Update Date : 29/09/2023
+Version : v1.1
+Update Date : 03/01/2024
 
 ######################################
 
@@ -16,3 +16,5 @@ OP400 - High floor tests
 OP500 - Open pack test + PDU assembly
 
 OP600 - Closed pack test
+
+OP700 - Closed pack + customization
