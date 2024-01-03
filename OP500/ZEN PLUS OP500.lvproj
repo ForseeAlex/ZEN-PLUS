@@ -16,6 +16,7 @@
 		<Item Name="BDD_VERIF_OP.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/BDD_VERIF_OP.vi"/>
 		<Item Name="BOUCLE_YES_NO.vi" Type="VI" URL="../Lib/user.lib/Question/BOUCLE_YES_NO.vi"/>
 		<Item Name="DTC_ERASE.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/DTC_ERASE.vi"/>
+		<Item Name="EMAIL_DEBUG.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/EMAIL_DEBUG.vi"/>
 		<Item Name="FGV_Image.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/FGV_Image.vi"/>
 		<Item Name="Log_create_logFile_OP500.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2020/Lib/user.lib/Alex Log/Log_create_logFile_OP500.vi"/>
 		<Item Name="main OP500_V2 (AUTOMATISATION).vi" Type="VI" URL="../main OP500_V2 (AUTOMATISATION).vi"/>
@@ -42,9 +43,14 @@
 		<Item Name="ST5520_CMD.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/ST5520_CMD.vi"/>
 		<Item Name="ST5520_CMD_2.vi" Type="VI" URL="../SubVI/ST5520_CMD_2.vi"/>
 		<Item Name="TEMPS_TEST.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/TEMPS_TEST.vi"/>
+		<Item Name="TRDU_max.vi" Type="VI" URL="../VG/TRDU_max.vi"/>
+		<Item Name="TRDU_min.vi" Type="VI" URL="../VG/TRDU_min.vi"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../../../../../Downloads/Untitled 1.vi"/>
 		<Item Name="Untitled 3" Type="VI"/>
+		<Item Name="VG_0Detected.vi" Type="VI" URL="../VG/VG_0Detected.vi"/>
 		<Item Name="VG_branche.vi" Type="VI" URL="../VG/VG_branche.vi"/>
+		<Item Name="VG_TimeOut_TRDU.vi" Type="VI" URL="../VG/VG_TimeOut_TRDU.vi"/>
+		<Item Name="VG_TRDU_DONE" Type="VI" URL="../VG/VG_TRDU_DONE"/>
 		<Item Name="VG_WaveChart.vi" Type="VI" URL="../VG/VG_WaveChart.vi"/>
 		<Item Name="VG_YESNON.vi" Type="VI" URL="../Lib/user.lib/Question/VG_YESNON.vi"/>
 		<Item Name="ZENP_CAN.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/ZENP_CAN.vi"/>
@@ -144,6 +150,7 @@
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="LabVIEWSMTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/smtpClient/LabVIEWSMTPClient.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -260,7 +267,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0644DFAB-FDDD-4F89-8652-CD73B6E407A3}</Property>
-				<Property Name="Bld_version.build" Type="Int">135</Property>
+				<Property Name="Bld_version.build" Type="Int">141</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ZENPlusOP500V1.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ZEN+ OP500/ZENPlusOP500V1.exe</Property>

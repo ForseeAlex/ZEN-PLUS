@@ -32,7 +32,7 @@
 			<Item Name="ReadLastOF.vi" Type="VI" URL="../subVI/ReadLastOF.vi"/>
 			<Item Name="WriteLastOF.vi" Type="VI" URL="../subVI/WriteLastOF.vi"/>
 			<Item Name="SELECT COUNT SN.vi" Type="VI" URL="../DB/SELECT COUNT SN.vi"/>
-			<Item Name="BDDCMD.vi" Type="VI" URL="/C/Users/flament/Desktop/BDDCMD.vi"/>
+			<Item Name="BDDCMD.vi" Type="VI" URL="../../../../../../flament/Desktop/BDDCMD.vi"/>
 			<Item Name="OFFINISH_parse_PLC.vi" Type="VI" URL="../subVI/OFFINISH_parse_PLC.vi"/>
 			<Item Name="OFFINISH_compare.vi" Type="VI" URL="../subVI/OFFINISH_compare.vi"/>
 			<Item Name="PushGoldenSingleData.vi" Type="VI" URL="../DB/PushGoldenSingleData.vi"/>
@@ -43,18 +43,59 @@
 		<Item Name="mainOFFLINE.vi" Type="VI" URL="../mainOFFLINE.vi"/>
 		<Item Name="Untitled 2.vi" Type="VI" URL="../Untitled 2.vi"/>
 		<Item Name="liste des types.vi" Type="VI" URL="../liste des types.vi"/>
+		<Item Name="VG_progressBar.vi" Type="VI" URL="../VarGLO/VG_progressBar.vi"/>
+		<Item Name="Global POSTDCIR.vi" Type="VI" URL="../VarGLO/Global POSTDCIR.vi"/>
+		<Item Name="Global INTRADCIR.vi" Type="VI" URL="../VarGLO/Global INTRADCIR.vi"/>
+		<Item Name="BDD_CHECK_GENERAL.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/BDD_CHECK_GENERAL.vi"/>
+		<Item Name="OF_STATE.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/OF_STATE.vi"/>
+		<Item Name="PN_TYPE.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/PN_TYPE.vi"/>
+		<Item Name="SELECT_LIMITES_FROM_OP100LIMITES.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/SELECT_LIMITES_FROM_OP100LIMITES.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="IT6000C.lvlib" Type="Library" URL="/&lt;instrlib&gt;/IT6000C/IT6000C.lvlib"/>
 				<Item Name="Read Output.vi" Type="VI" URL="/&lt;instrlib&gt;/IT6000C/Public/Data/Read Output.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="BDD READWRIGHT.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_BDD/BDD READWRIGHT.vi"/>
 				<Item Name="PCANBasic.lvlib" Type="Library" URL="/&lt;userlib&gt;/PCAN Basic/PCANBasic.lvlib"/>
 				<Item Name="PEAK_lib_ALEX.lvlib" Type="Library" URL="/&lt;userlib&gt;/Alex_Peak_lib/PEAK_lib_ALEX.lvlib"/>
 				<Item Name="Peak_ta_Bouche.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/Peak_ta_Bouche.vi"/>
 				<Item Name="Time_string.vi" Type="VI" URL="/&lt;userlib&gt;/Alex Log/Time_string.vi"/>
-				<Item Name="BDD READ nDATA.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_BDD/BDD READ nDATA.vi"/>
+				<Item Name="PEAK_Init_plus.vi" Type="VI" URL="/&lt;userlib&gt;/Alex_Peak_lib/PEAK_Init_plus.vi"/>
+				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
+				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
+				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
+				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
+				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
+				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
+				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
+				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
+				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
+				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
+				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
+				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
+				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
+				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
+				<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
+				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
+				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
+				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
+				<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
+				<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
+				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
+				<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Format Variant Into String__ogtk.vi"/>
+				<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Last PString__ogtk.vi"/>
+				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
+				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
+				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
+				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
+				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
+				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
+				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
+				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
+				<Item Name="OpenMdpForsee.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/OpenMdpForsee.vi"/>
+				<Item Name="DATA_INSERT.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/DATA_INSERT.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -82,7 +123,21 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Get Command Line Arguments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/Get Command Line Arguments.vi"/>
+				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
+				<Item Name="MySQLVIEW.lvlib" Type="Library" URL="/&lt;vilib&gt;/QMT/GDataBase for MySQL(tm)/MySQLVIEW.lvlib"/>
+				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
+				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
+				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
+				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
+				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
+				<Item Name="MySQLConnector.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/MySQLConnector.lvclass"/>
+				<Item Name="ClientAuthentication.ctl" Type="VI" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/Public/Controls/ClientAuthentication.ctl"/>
+				<Item Name="Open.vi" Type="VI" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/Public/Open.vi"/>
 			</Item>
 			<Item Name="Check cmod P15 VAL INGELIANCE.vi" Type="VI" URL="../../../00 LIB GENERIC/COM CMOD/Check cmod P15 VAL INGELIANCE.vi"/>
 			<Item Name="Cut frame 40x.vi" Type="VI" URL="../../../00 LIB GENERIC/COM CMOD/Cut frame 40x.vi"/>
@@ -90,9 +145,7 @@
 			<Item Name="PCANBasic.dll" Type="Document" URL="PCANBasic.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PEAK_Init_plus.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/Alex_Peak_lib/PEAK_Init_plus.vi"/>
 			<Item Name="Peakmap.vi" Type="VI" URL="../subVI/Peakmap.vi"/>
-			<Item Name="VG_progressBar.vi" Type="VI" URL="../../../02 SLIM ZEN WS 500/SubVi/VG_progressBar.vi"/>
 			<Item Name="DATADYNINGELIANCE.vi" Type="VI" URL="../subVI/DATADYNINGELIANCE.vi"/>
 			<Item Name="L2T.ctl" Type="VI" URL="../subVI/Ctrl/L2T.ctl"/>
 			<Item Name="Hitech_init.vi" Type="VI" URL="../subVI/dcir/Hitech_init.vi"/>
@@ -106,13 +159,8 @@
 			<Item Name="OF state.vi" Type="VI" URL="../DB/OF state.vi"/>
 			<Item Name="Send test DATA.vi" Type="VI" URL="../subVI/Send test DATA.vi"/>
 			<Item Name="TypeSn.vi" Type="VI" URL="../subVI/TypeSn.vi"/>
-			<Item Name="Global PEAK.vi" Type="VI" URL="../subVI/VarGLO/Global PEAK.vi"/>
-			<Item Name="Global Limite de test.vi" Type="VI" URL="../subVI/VarGLO/Global Limite de test.vi"/>
 			<Item Name="40exportToBdd.vi" Type="VI" URL="../subVI/dcir/40exportToBdd.vi"/>
-			<Item Name="Global var.vi" Type="VI" URL="../subVI/VarGLO/Global var.vi"/>
-			<Item Name="SELECT LIMITES FROM OP100Limites.vi" Type="VI" URL="../DB/SELECT LIMITES FROM OP100Limites.vi"/>
 			<Item Name="ChekOF.vi" Type="VI" URL="../subVI/ChekOF.vi"/>
-			<Item Name="PN TYPE.vi" Type="VI" URL="../subVI/PN TYPE.vi"/>
 			<Item Name="CREATE OF DB.vi" Type="VI" URL="../DB/CREATE OF DB.vi"/>
 			<Item Name="Final_OCVACIR.vi" Type="VI" URL="../subVI/TestFinal/Final_OCVACIR.vi"/>
 			<Item Name="Final_Iso.vi" Type="VI" URL="../subVI/TestFinal/Final_Iso.vi"/>
@@ -124,6 +172,10 @@
 			<Item Name="Init Data BDD.vi" Type="VI" URL="../subVI/Init Data BDD.vi"/>
 			<Item Name="micro1.vi" Type="VI" URL="../subVI/micro1.vi"/>
 			<Item Name="trame_ana.vi" Type="VI" URL="../subVI/trame_ana.vi"/>
+			<Item Name="Global var.vi" Type="VI" URL="../VarGLO/Global var.vi"/>
+			<Item Name="Global PEAK.vi" Type="VI" URL="../VarGLO/Global PEAK.vi"/>
+			<Item Name="Global Limite de test.vi" Type="VI" URL="../VarGLO/Global Limite de test.vi"/>
+			<Item Name="Global PREDCIR.vi" Type="VI" URL="../VarGLO/Global PREDCIR.vi"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build">
 			<Item Name="Carrousel" Type="EXE">

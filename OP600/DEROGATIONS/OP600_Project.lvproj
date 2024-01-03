@@ -131,7 +131,6 @@
 			<Item Name="BEEP.vi" Type="VI" URL="../SubVI/BEEP.vi"/>
 			<Item Name="CheminDeBase.vi" Type="VI" URL="../SubVI/CheminDeBase.vi"/>
 			<Item Name="DCIR@1C.vi" Type="VI" URL="../VG/DCIR@1C.vi"/>
-			<Item Name="delay.vi" Type="VI" URL="../../../OP150/EN PRODUCTION/OP150/PVgenerator/delay.vi"/>
 			<Item Name="delay.vi" Type="VI" URL="../PVgenerator/delay.vi"/>
 			<Item Name="Global PEAK.vi" Type="VI" URL="../../../Carrousel/VarGLO/Global PEAK.vi"/>
 			<Item Name="Hitech_init.vi" Type="VI" URL="../../../Carrousel/subVI/dcir/Hitech_init.vi"/>
@@ -171,7 +170,6 @@
 			<Item Name="OP600ZP_VGConf.vi" Type="VI" URL="../SubVI/OP600ZP_VGConf.vi"/>
 			<Item Name="OP600ZP_VGConf.vi" Type="VI" URL="../../SubVI/OP600ZP_VGConf.vi"/>
 			<Item Name="OpenMdpForsee.vi" Type="VI" URL="../../../../../../Downloads/OpenMdpForsee.vi"/>
-			<Item Name="OUINON.vi" Type="VI" URL="../../SubVI/OUINON.vi"/>
 			<Item Name="PackType.vi" Type="VI" URL="../VG/PackType.vi"/>
 			<Item Name="PackType.vi" Type="VI" URL="../../VG/PackType.vi"/>
 			<Item Name="PCANBasic.dll" Type="Document" URL="PCANBasic.dll">
@@ -207,7 +205,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{35578326-DF70-4210-AF38-B3551DF5082F}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OP600_ZENPLUS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/OP600_ZENPLUS/OP600_ZENPLUS.exe</Property>

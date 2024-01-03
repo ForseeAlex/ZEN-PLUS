@@ -48,6 +48,7 @@
 		<Item Name="OP300ZP_CONTI_HYDRAU.vi" Type="VI" URL="../SubVI/OP300ZP_CONTI_HYDRAU.vi"/>
 		<Item Name="OP300ZP_CONTI_VI.vi" Type="VI" URL="../SubVI/OP300ZP_CONTI_VI.vi"/>
 		<Item Name="OP500ZP_ADJ.vi" Type="VI" URL="../SubVI/OP500ZP_ADJ.vi"/>
+		<Item Name="OpenMdpForsee.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/OpenMdpForsee.vi"/>
 		<Item Name="OUT.vi" Type="VI" URL="../SubVI/OUT.vi"/>
 		<Item Name="PCANBasic.lvlib" Type="Library" URL="/&lt;userlib&gt;/PCAN Basic/PCANBasic.lvlib"/>
 		<Item Name="PN.vi" Type="VI" URL="../VG/PN.vi"/>
@@ -77,15 +78,12 @@
 				<Item Name="IT6000C.lvlib" Type="Library" URL="/&lt;instrlib&gt;/IT6000C/IT6000C.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Arduino_CDP_3.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/Arduino_CDP_3.vi"/>
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
-				<Item Name="BDD_CHECK_GENERAL.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/BDD_CHECK_GENERAL.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
 				<Item Name="FGV.ctl" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/FGV.ctl"/>
 				<Item Name="FGV_Image.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/FGV_Image.vi"/>
 				<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Format Variant Into String__ogtk.vi"/>
-				<Item Name="Format_ISOSPI.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/Format_ISOSPI.vi"/>
 				<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
 				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
@@ -102,6 +100,7 @@
 				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
 				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
 				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+				<Item Name="Init Arduino CDP0011.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/Init Arduino CDP0011.vi"/>
 				<Item Name="OUINON.vi" Type="VI" URL="/&lt;userlib&gt;/Question/OUINON.vi"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
 				<Item Name="PASSFAIL.vi" Type="VI" URL="/&lt;userlib&gt;/Alex Log/PASSFAIL.vi"/>
@@ -110,6 +109,8 @@
 				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
 				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
 				<Item Name="Réponse Opérateur.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/Réponse Opérateur.vi"/>
+				<Item Name="set Arduino CDP0011.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/set Arduino CDP0011.vi"/>
+				<Item Name="setArduino.ctl" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/setArduino.ctl"/>
 				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
 				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
@@ -134,6 +135,7 @@
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="ClientAuthentication.ctl" Type="VI" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/Public/Controls/ClientAuthentication.ctl"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
@@ -169,6 +171,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="mouseAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/mouseAcquire.vi"/>
+				<Item Name="MySQLConnector.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/MySQLConnector.lvclass"/>
 				<Item Name="MySQLVIEW.lvlib" Type="Library" URL="/&lt;vilib&gt;/QMT/GDataBase for MySQL(tm)/MySQLVIEW.lvlib"/>
 				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -177,6 +180,7 @@
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
+				<Item Name="Open.vi" Type="VI" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/Public/Open.vi"/>
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
@@ -231,7 +235,6 @@
 			<Item Name="OP400ZP_selectdata.ctl" Type="VI" URL="../SubVI/BDD/BDD/OP400ZP_selectdata.ctl"/>
 			<Item Name="OP400ZP_Test_DataDyn.vi" Type="VI" URL="../../../../OP400/SubVI/OP400ZP_Test_DataDyn.vi"/>
 			<Item Name="OP500ZP_INIT_ST5520.vi" Type="VI" URL="../../../../OP500/SubVI/OP500ZP_INIT_ST5520.vi"/>
-			<Item Name="OpenMdpForsee.vi" Type="VI" URL="../../../../../../../Downloads/OpenMdpForsee.vi"/>
 			<Item Name="OPERATEUR.vi" Type="VI" URL="../Lib/user.lib/Question/OPERATEUR.vi"/>
 			<Item Name="P_OUINON.vi" Type="VI" URL="../Lib/user.lib/Question/P_OUINON.vi"/>
 			<Item Name="Param_OCVACIR.vi" Type="VI" URL="../../../../OP400/Lib/02 SLIM ZEN/SubVi/Param_OCVACIR.vi"/>
@@ -248,6 +251,7 @@
 			<Item Name="SCAN_VISA.vi" Type="VI" URL="../SubVI/SCAN_VISA.vi"/>
 			<Item Name="TestSCAN_MX5060.vi" Type="VI" URL="../SubVI/TestSCAN_MX5060.vi"/>
 			<Item Name="Variables globales outil isospi sans MCU.vi" Type="VI" URL="../SubVI/ISO/Variables globales outil isospi sans MCU.vi"/>
+			<Item Name="VG_LINX.vi" Type="VI" URL="../VG/VG_LINX.vi"/>
 			<Item Name="VG_MX5060.vi" Type="VI" URL="../VG/VG_MX5060.vi"/>
 			<Item Name="VG_progressBar.vi" Type="VI" URL="../../../../OP500/VG/VG_progressBar.vi"/>
 			<Item Name="VG_ST5520.vi" Type="VI" URL="../../../../OP500/VG/VG_ST5520.vi"/>
@@ -272,7 +276,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B8E9AB5B-8746-4DD8-91DA-38A2668D3E43}</Property>
-				<Property Name="Bld_version.build" Type="Int">134</Property>
+				<Property Name="Bld_version.build" Type="Int">137</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OP300 ZENPLUS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/OP300 ZEN+/OP300 ZENPLUS.exe</Property>

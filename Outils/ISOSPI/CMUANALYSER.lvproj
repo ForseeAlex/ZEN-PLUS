@@ -57,6 +57,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="ctn2.vi" Type="VI" URL="../../../OP300/EN PRODUCTION/OP300-CONTI-AUTO/SubVI/ISO/ctn2.vi"/>
+			<Item Name="Format.vi" Type="VI" URL="../../../OP300/EN PRODUCTION/OP300-CONTI-AUTO/SubVI/Format.vi"/>
 			<Item Name="IsoSPI Spying Tool data interpretation.vi" Type="VI" URL="../../../OP300/EN PRODUCTION/OP300-CONTI-AUTO/SubVI/IsoSPI Spying Tool data interpretation.vi"/>
 			<Item Name="MaketabTest.vi" Type="VI" URL="../../../OP300/EN PRODUCTION/OP300-CONTI-AUTO/SubVI/ISO/MaketabTest.vi"/>
 			<Item Name="ReadData.vi" Type="VI" URL="../../../OP300/EN PRODUCTION/OP300-CONTI-AUTO/SubVI/ReadData.vi"/>
@@ -81,7 +82,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{160841B5-234E-419D-B845-97BF7469A71B}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ISOSPI Analyser.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ISOSPI Analyser/ISOSPI Analyser.exe</Property>
@@ -90,7 +91,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ISOSPI Analyser/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BAB913B7-00D8-41A0-A5F5-EB073E3083B3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3037592C-5EDD-4D8E-9694-6DF02DDA7692}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BriqueISOSPI_OP400.vi</Property>

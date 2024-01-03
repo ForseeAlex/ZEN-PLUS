@@ -29,6 +29,7 @@
 		<Item Name="FGV_Image.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/FGV_Image.vi"/>
 		<Item Name="GetP.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/GetP.vi"/>
 		<Item Name="main OP150-2.vi" Type="VI" URL="../main OP150-2.vi"/>
+		<Item Name="OP150ZP_BDD.vi" Type="VI" URL="../SubVI/OP150ZP_BDD.vi"/>
 		<Item Name="OP150ZP_BDD.vi" Type="VI" URL="../../OP150/SubVI/OP150ZP_BDD.vi"/>
 		<Item Name="OP150ZP_Param_ConfZENplusOP100.vi" Type="VI" URL="../../OP150 - Copie/SubVI/OP150ZP_Param_ConfZENplusOP100.vi"/>
 		<Item Name="OP150ZP_SEALING.vi" Type="VI" URL="../../../../OP300.2/SubVI/OP150ZP_SEALING.vi"/>
@@ -79,6 +80,7 @@
 				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
 				<Item Name="QR_top_left.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/QR_top_left.vi"/>
+				<Item Name="Read_Param.vi" Type="VI" URL="/&lt;userlib&gt;/Alex.vi/Read_Param.vi"/>
 				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
 				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
 				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
@@ -124,7 +126,6 @@
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="liblinxdevice.dll" Type="Document" URL="/&lt;vilib&gt;/MakerHub/LINX/Resources/liblinxdevice.dll"/>
 				<Item Name="LMH-LINX.lvlib" Type="Library" URL="/&lt;vilib&gt;/MakerHub/LINX/LMH-LINX.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -140,6 +141,7 @@
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
+				<Item Name="Reset myRIO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Utilities/VIs/Reset myRIO.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
@@ -168,6 +170,9 @@
 			<Item Name="Heure.vi" Type="VI" URL="../Lib/00 LIB GENERIC/DIVERS/Heure.vi"/>
 			<Item Name="HTML_Table_Data.vi" Type="VI" URL="../../OP150/PVgenerator/HTML_Table_Data.vi"/>
 			<Item Name="HTML_Table_Head.vi" Type="VI" URL="../../OP150/PVgenerator/HTML_Table_Head.vi"/>
+			<Item Name="liblinxdevice.dll" Type="Document" URL="liblinxdevice.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Log_basic.vi" Type="VI" URL="../Lib/user.lib/Alex Log/Log_basic.vi"/>
 			<Item Name="Log_create_logFile_default.vi" Type="VI" URL="../Lib/user.lib/Alex Log/Log_create_logFile_default.vi"/>
 			<Item Name="Log_create_logFile_OP150.vi" Type="VI" URL="../SubVI/Log_create_logFile_OP150.vi"/>
@@ -186,11 +191,10 @@
 			</Item>
 			<Item Name="PicoInitVisa.vi" Type="VI" URL="../../OP150/Lib/00 LIB GENERIC/DIVERS/PicoInitVisa.vi"/>
 			<Item Name="POP_GOOGLE.vi" Type="VI" URL="../Lib/user.lib/Alex Log/POP_GOOGLE.vi"/>
-			<Item Name="Read_Param.vi" Type="VI" URL="../Lib/user.lib/PARAM/Read_Param.vi"/>
 			<Item Name="ReadATEQData.vi" Type="VI" URL="../SubVI/ReadATEQData.vi"/>
 			<Item Name="Recuperation de donnees.vi" Type="VI" URL="../../OP150/PVgenerator/Recuperation de donnees.vi"/>
 			<Item Name="Réponse Opérateur Pédale.vi" Type="VI" URL="../Lib/user.lib/Question/Réponse Opérateur Pédale.vi"/>
-			<Item Name="VG_ATEQ.vi" Type="VI" URL="../VG/VG_ATEQ.vi"/>
+			<Item Name="VG_ATEQ.vi" Type="VI" URL="../../../../OP500/VG/VG_ATEQ.vi"/>
 			<Item Name="VG_BT3562.vi" Type="VI" URL="../../OP150/VG/VG_BT3562.vi"/>
 			<Item Name="VG_progressBar.vi" Type="VI" URL="../Lib/02 SLIM ZEN WS 500/SubVi/VG_progressBar.vi"/>
 			<Item Name="ZenPlusOP300_refaire.vi" Type="VI" URL="../SubVI/ZenPlusOP300_refaire.vi"/>
@@ -214,7 +218,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B8E9AB5B-8746-4DD8-91DA-38A2668D3E43}</Property>
-				<Property Name="Bld_version.build" Type="Int">79</Property>
+				<Property Name="Bld_version.build" Type="Int">85</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OP150-2 ZENPLUS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/OP150-2 ZEN+/OP150-2 ZENPLUS.exe</Property>
