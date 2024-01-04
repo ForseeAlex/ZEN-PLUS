@@ -50,6 +50,10 @@
 		<Item Name="OF_STATE.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/OF_STATE.vi"/>
 		<Item Name="PN_TYPE.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/PN_TYPE.vi"/>
 		<Item Name="SELECT_LIMITES_FROM_OP100LIMITES.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/SELECT_LIMITES_FROM_OP100LIMITES.vi"/>
+		<Item Name="SN_type.ctl" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/SN_type.ctl"/>
+		<Item Name="test.vi" Type="VI" URL="../../../../../OneDrive - FORSEE POWER/Images/test.vi"/>
+		<Item Name="TeamLeader.vi" Type="VI" URL="../subVI/TeamLeader.vi"/>
+		<Item Name="Global TeamLeader.vi" Type="VI" URL="../VarGLO/Global TeamLeader.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="IT6000C.lvlib" Type="Library" URL="/&lt;instrlib&gt;/IT6000C/IT6000C.lvlib"/>
@@ -135,9 +139,6 @@
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
-				<Item Name="MySQLConnector.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/MySQLConnector.lvclass"/>
-				<Item Name="ClientAuthentication.ctl" Type="VI" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/Public/Controls/ClientAuthentication.ctl"/>
-				<Item Name="Open.vi" Type="VI" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/Public/Open.vi"/>
 			</Item>
 			<Item Name="Check cmod P15 VAL INGELIANCE.vi" Type="VI" URL="../../../00 LIB GENERIC/COM CMOD/Check cmod P15 VAL INGELIANCE.vi"/>
 			<Item Name="Cut frame 40x.vi" Type="VI" URL="../../../00 LIB GENERIC/COM CMOD/Cut frame 40x.vi"/>

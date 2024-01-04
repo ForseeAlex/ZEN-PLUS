@@ -44,6 +44,7 @@
 		<Item Name="Log_create_logFile_OP300.vi" Type="VI" URL="../SubVI/Log_create_logFile_OP300.vi"/>
 		<Item Name="main OP300.vi" Type="VI" URL="../main OP300.vi"/>
 		<Item Name="MaketabTest.vi" Type="VI" URL="../SubVI/ISO/MaketabTest.vi"/>
+		<Item Name="Network_path.vi" Type="VI" URL="/&lt;userlib&gt;/Sylvain.lib/Network_path.vi"/>
 		<Item Name="OCV_ACIR_Micro1.vi" Type="VI" URL="../../../../../../../../../Program Files/National Instruments/LabVIEW 2020/Lib/02 SLIM ZEN/SubVi/OCV_ACIR_Micro1.vi"/>
 		<Item Name="OP300ZP_CONTI_HYDRAU.vi" Type="VI" URL="../SubVI/OP300ZP_CONTI_HYDRAU.vi"/>
 		<Item Name="OP300ZP_CONTI_VI.vi" Type="VI" URL="../SubVI/OP300ZP_CONTI_VI.vi"/>
@@ -276,7 +277,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B8E9AB5B-8746-4DD8-91DA-38A2668D3E43}</Property>
-				<Property Name="Bld_version.build" Type="Int">137</Property>
+				<Property Name="Bld_version.build" Type="Int">138</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OP300 ZENPLUS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/OP300 ZEN+/OP300 ZENPLUS.exe</Property>
